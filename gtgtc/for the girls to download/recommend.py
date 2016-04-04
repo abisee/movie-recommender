@@ -198,7 +198,7 @@ def pretty_print_features(features_to_use):
                 print " > %s" % (f)
 
 
-def get_dists(movie_key,features_to_use):
+def get_dists(movie_key, features_to_use, distance_function):
     """Calculates the distance from all features in the database to movie_key,
     using only the features turned on in features_to_use"""
     # filter all the vecs
@@ -210,7 +210,7 @@ def get_dists(movie_key,features_to_use):
     # print movie_vec
     dists = []
     for key,vec in movie_vecs_filtered.iteritems():
-        dists.append((key,eucl_dist(movie_vec,vec)))
+        dists.append((key, distance_function(movie_vec,vec)))
     dists_sorted = sorted(dists,key=lambda x:x[1]) # sort by second
     return dists_sorted
 
@@ -232,7 +232,7 @@ def print_all_dists(movie_key, features_to_use):
         print "%.3f %s" % (dist,key)
 
 
-def print_top_bottom(movie_key,features_to_use,k):
+def print_top_bottom(movie_key, features_to_use, k, distance=eucl_dist):
     """Pretty-prints the top and bottom k movies, excluding the movie itself"""
 
     # pretty-print the movie and features used
@@ -243,7 +243,7 @@ def print_top_bottom(movie_key,features_to_use,k):
     pretty_print_features(features_to_use)
     print "=============================================================="
 
-    dists_sorted = get_dists(movie_key,features_to_use)
+    dists_sorted = get_dists(movie_key, features_to_use, distance)
     print "Top %i matching movies" % (k)
     print "=============================================================="
     dists_sorted.remove((movie_key,0.0)) # remove the movie itself
@@ -258,34 +258,17 @@ def print_top_bottom(movie_key,features_to_use,k):
         print ""
     print "=============================================================="
 
-
 ##########################################################################
-# PLAY WITH THE CODE BELOW!
+# ADVANCED CODING EXERCISES
 ##########################################################################
 
-# This part determines which features we will use when comparing movies.
-# Change the number to a 1 to use the feature, or 0 to ignore it.
-# Currently we only have the "runtime" feature turned on.
-features_to_use = {
-'year' : 0,
-'rating': 0, # imdb rating out of 10
-'runtime': 1, # runtime in minutes
-'mpaa': 0, # mpaa rating e.g. PG or R
-'genres': 0,
-'countries': 0,
-'languages': 0
-}
+# This area is a bunch of functions which you can try implementing once
+# you get a better sense of how to use Python!  To complete a function, 
+# delete the existing line and write you code in place.  Have fun!
 
-# Run this function to see the top 5 and bottom 5 matching movies for "Inside Out".
-# Try typing in another movie from the database (check titles.txt to see the list of movies).
-# You can change the 5 to another number to see more or fewer matches.
-# Experiment with turning features on and off to see the effect on the recommender system.
-print_top_bottom("Inside Out", features_to_use, 5)
-
-# Run this function to see *all* the movies in the database, along with their
-# distance from "Inside Out".
-# print_all_dists("Inside Out", features_to_use)
-
-##########################################################################
-# END OF YOUR CODE
-##########################################################################
+def manh_dist(vec1, vec2):
+    """ Returns the Manhattan distance between vec1 and vec2, which are both
+        lists of the same length.  To use this distance, go to features.py 
+        and after the last argument, write "manh_dist" as the final argument
+        to print_top_bottom """
+    return 0.0
