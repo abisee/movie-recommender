@@ -1,0 +1,1485 @@
+title;The Fault in Our Stars
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA4NzkxNzc5Ml5BMl5BanBnXkFtZTgwNzQ3OTMxMTE@._V1._SX95_SY140_.jpg
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;126
+year;2014
+rating;7.9
+title;Mean Girls
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1._SX99_SY140_.jpg
+genres;Comedy,
+countries;USA,Canada,
+languages;English,German,Vietnamese,Swahili,
+runtime;97
+year;2004
+rating;7.0
+title;The Perks of Being a Wallflower
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzIxOTQyODU1OV5BMl5BanBnXkFtZTcwMDQ4Mjg4Nw@@._V1._SX95_SY140_.jpg
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;102
+year;2012
+rating;8.0
+title;Wild Child
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk5MDYxODYxNV5BMl5BanBnXkFtZTcwMjU5ODc4MQ@@._V1._SX94_SY140_.jpg
+genres;Comedy,Drama,Romance,
+countries;USA,UK,France,
+languages;English,
+runtime;98
+year;2008
+rating;6.1
+title;My Sister's Keeper
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ2NDg4MDU3NF5BMl5BanBnXkFtZTcwMjg5Njc1Mg@@._V1._SX95_SY140_.jpg
+genres;Drama,
+countries;USA,
+languages;English,Croatian,
+runtime;109
+year;2009
+rating;7.4
+title;Clueless
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgxODIxODE2MF5BMl5BanBnXkFtZTgwOTA4NjQxMTE@._V1._SX95_SY140_.jpg
+genres;Comedy,Romance,
+countries;USA,
+languages;English,Spanish,
+runtime;97
+year;1995
+rating;6.8
+title;Legally Blonde
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNTEyNjUwMTkxMV5BMl5BanBnXkFtZTcwNjk0NDk0NA@@._V1._SX93_SY140_.jpg
+genres;Comedy,Romance,
+countries;USA,
+languages;English,
+runtime;96
+year;2001
+rating;6.2
+title;The Sisterhood of the Traveling Pants
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY0NjgyNzUwNl5BMl5BanBnXkFtZTcwMDkxNjgyMQ@@._V1._SX94_SY140_.jpg
+genres;Comedy,Drama,Romance,
+countries;USA,
+languages;English,Greek,Spanish,
+runtime;119
+year;2005
+rating;6.6
+title;When in Rome
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM0OTQ3MjgzN15BMl5BanBnXkFtZTcwMjMyNzg3Mg@@._V1._SX95_SY140_.jpg
+genres;Comedy,Romance,
+countries;USA,
+languages;English,Italian,
+runtime;91
+year;2010
+rating;5.5
+title;Warm Bodies
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ4MjY2MjMzOV5BMl5BanBnXkFtZTcwMDUxNzIwOQ@@._V1._CR43,43.16667175292969,1298,1960.9999542236328._SX93_SY140_.jpg
+genres;Comedy,Horror,Romance,
+countries;USA,Canada,
+languages;English,
+runtime;98
+year;2013
+rating;6.9
+title;A Cinderella Story
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTA1NDI0OTkwNDNeQTJeQWpwZ15BbWU3MDQ3Nzc1MjE@._V1._SX95_SY140_.jpg
+genres;Comedy,Family,Romance,
+countries;USA,Canada,
+languages;English,German,Czech,
+runtime;95
+year;2004
+rating;5.9
+title;Twilight
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1._SX94_SY140_.jpg
+genres;Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;122
+year;2008
+rating;5.2
+title;Step Up 2: The Streets
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc0NzYxOTgxOF5BMl5BanBnXkFtZTcwMTgxMjc1MQ@@._V1._SX95_SY140_.jpg
+genres;Drama,Music,Musical,Romance,
+countries;USA,
+languages;English,Russian,
+runtime;98
+year;2008
+rating;6.2
+title;So Undercover
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BODEyMDE2Nzg4MV5BMl5BanBnXkFtZTcwNDI0NDE4OA@@._V1._SX99_SY140_.jpg
+genres;Action,Comedy,
+countries;USA,
+languages;English,
+runtime;94
+year;2012
+rating;5.0
+title;Jack the Giant Slayer
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE1NDMxMjI0OV5BMl5BanBnXkFtZTcwMjQyMDExOQ@@._V1._SX94_SY140_.jpg
+genres;Adventure,Fantasy,
+countries;USA,
+languages;English,
+runtime;114
+year;2013
+rating;6.3
+title;Avatar
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,UK,
+languages;English,Spanish,
+runtime;162
+year;2009
+rating;7.9
+title;A Walk to Remember
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM1MTYzNjA3M15BMl5BanBnXkFtZTcwMjk2NTE4Mg@@._V1._SX98_SY140_.jpg
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;101
+year;2002
+rating;7.4
+title;Ella Enchanted
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI2MjI3Nzg3NV5BMl5BanBnXkFtZTcwMjc2NTYyMQ@@._V1._SX99_SY140_.jpg
+genres;Comedy,Family,Fantasy,Romance,
+countries;USA,Ireland,UK,
+languages;English,
+runtime;96
+year;2004
+rating;6.3
+title;The Fast and the Furious
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAwNTQ0Nzc2M15BMl5BanBnXkFtZTcwNTk1MDIwNA@@._V1._SX90_SY140_.jpg
+genres;Action,Crime,Thriller,
+countries;USA,Germany,
+languages;English,
+runtime;106
+year;2001
+rating;6.7
+title;Easy A
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1._SX95_SY140_.jpg
+genres;Comedy,Romance,
+countries;USA,
+languages;English,
+runtime;92
+year;2010
+rating;7.1
+title;The Secret Life of Bees
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BOTgzNDIzMTM2OV5BMl5BanBnXkFtZTcwMTQzNTE4MQ@@._V1._SX94_SY140_.jpg
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;114
+year;2008
+rating;7.3
+title;Prom
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQyNDcyODI2NV5BMl5BanBnXkFtZTcwMTA3NTAzNA@@._V1._SX94_SY140_.jpg
+genres;Comedy,Drama,
+countries;USA,
+languages;English,
+runtime;104
+year;2011
+rating;5.4
+title;Juno
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgxMjgyMTcyNF5BMl5BanBnXkFtZTcwMDg1MTU1MQ@@._V1._SX90_SY140_.jpg
+genres;Comedy,Drama,Romance,
+countries;USA,
+languages;English,
+runtime;96
+year;2007
+rating;7.5
+title;Inception
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1._SX95_SY140_.jpg
+genres;Action,Mystery,Sci-Fi,Thriller,
+countries;USA,UK,
+languages;English,Japanese,French,
+runtime;148
+year;2010
+rating;8.8
+title;Speak
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI4NTkwNjQ1Ml5BMl5BanBnXkFtZTcwMTgyNzUyMQ@@._V1._SX94_SY140_.jpg
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;89
+year;2004
+rating;7.4
+title;The Hole
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQxMzA2NTE1M15BMl5BanBnXkFtZTcwNjc5OTUzOA@@._V1._SX97_SY140_.jpg
+genres;Adventure,Fantasy,Thriller,
+countries;USA,
+languages;English,
+runtime;92
+year;2009
+rating;5.7
+title;X-Men Origins: Wolverine
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI2MTgyNjExM15BMl5BanBnXkFtZTcwNzU4MjkyMg@@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,UK,
+languages;English,
+runtime;107
+year;2009
+rating;6.7
+title;The 5th Wave
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjQwOTc0Mzg3Nl5BMl5BanBnXkFtZTgwOTg3NjI2NzE@._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;112
+year;2016
+rating;5.3
+title;Tomorrowland
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0MDc5MjAyNF5BMl5BanBnXkFtZTgwMzU5Mzk1NjE@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Family,Mystery,Sci-Fi,
+countries;USA,Spain,
+languages;English,French,Japanese,
+runtime;130
+year;2015
+rating;6.5
+title;Grease
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcyMTA5MTY3MF5BMl5BanBnXkFtZTgwMTMwNzAxMDE@._V1._SX94_SY140_.jpg
+genres;Musical,Romance,
+countries;USA,
+languages;English,
+runtime;110
+year;1978
+rating;7.2
+title;American Pie
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1._SX95_SY140_.jpg
+genres;Comedy,
+countries;USA,
+languages;English,
+runtime;95
+year;1999
+rating;7.0
+title;Dazed and Confused
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1._SX94_SY140_.jpg
+genres;Comedy,
+countries;USA,
+languages;English,
+runtime;102
+year;1993
+rating;7.7
+title;X-Men
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BOTU3MzA3ODYyM15BMl5BanBnXkFtZTgwMDgwNzc3NjE@._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;104
+year;2000
+rating;7.4
+title;Spider-Man
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzk3MTE5MDU5NV5BMl5BanBnXkFtZTYwMjY3NTY3._V1._SX95_SY140_.jpg
+genres;Action,Adventure,
+countries;USA,
+languages;English,
+runtime;121
+year;2002
+rating;7.3
+title;21 Jump Street
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc3NzQ3OTg3NF5BMl5BanBnXkFtZTcwMjk5OTcxNw@@._V1._SX93_SY140_.jpg
+genres;Action,Comedy,Crime,
+countries;USA,
+languages;English,
+runtime;109
+year;2012
+rating;7.2
+title;Wild Things
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg5MzM5NTAwMl5BMl5BanBnXkFtZTYwNDA0NzQ5._V1._SX99_SY140_.jpg
+genres;Crime,Drama,Mystery,Thriller,
+countries;USA,
+languages;English,
+runtime;108
+year;1998
+rating;6.5
+title;Boyhood
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1._SX95_SY140_.jpg
+genres;Drama,
+countries;USA,
+languages;English,Spanish,
+runtime;165
+year;2014
+rating;8.0
+title;Jumper
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjEwOTkyOTI3M15BMl5BanBnXkFtZTcwNTQxMjU1MQ@@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,Canada,
+languages;English,Italian,Japanese,Mandarin,
+runtime;88
+year;2008
+rating;6.1
+title;Percy Jackson & the Olympians: The Lightning Thief
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0MzY5OTQ2N15BMl5BanBnXkFtZTcwNzI1MTU5Mg@@._V1._SX95_SY140_.jpg
+genres;Adventure,Family,Fantasy,
+countries;UK,Canada,USA,
+languages;English,Greek
+runtime;118
+year;2010
+rating;5.9
+title;Project Almanac
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTUxMjQ2NjI4OV5BMl5BanBnXkFtZTgwODc2NjUwNDE@._V1._SX90_SY140_.jpg
+genres;Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;106
+year;2015
+rating;6.4
+title;Remember the Titans
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTczNTA2MDc0OF5BMl5BanBnXkFtZTYwMTg4MDY2._V1._SX96_SY140_.jpg
+genres;Biography,Drama,Sport,
+countries;USA,
+languages;English,
+runtime;113
+year;2000
+rating;7.8
+title;Hairspray
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTIyMTMzNzIyNV5BMl5BanBnXkFtZTcwMjM1NDk0MQ@@._V1._SX96_SY140_.jpg
+genres;Comedy,Musical,Romance,
+countries;USA,UK,
+languages;English,
+runtime;117
+year;2007
+rating;6.8
+title;Carrie
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BODg2MDU2MjYxNl5BMl5BanBnXkFtZTcwMDQ5MzU0OQ@@._V1._SX94_SY140_.jpg
+genres;Drama,Horror,
+countries;USA,
+languages;English,
+runtime;100
+year;2013
+rating;5.9
+title;17 Again
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA2NTI1Mzg3N15BMl5BanBnXkFtZTcwMjYwNjAzMg@@._V1._SX94_SY140_.jpg
+genres;Comedy,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;102
+year;2009
+rating;6.4
+title;The Place Beyond the Pines
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjc1OTEwNjU4N15BMl5BanBnXkFtZTcwNzUzNDIwOQ@@._V1._SX91_SY140_.jpg
+genres;Crime,Drama,Thriller,
+countries;USA,
+languages;English,Spanish,
+runtime;140
+year;2012
+rating;7.3
+title;Avengers: Age of Ultron
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;141
+year;2015
+rating;7.5
+title;Star Wars: Episode VII - The Force Awakens
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;135
+year;2015
+rating;8.3
+title;Minions
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg2MTMyMzU0M15BMl5BanBnXkFtZTgwOTU3ODk4NTE@._V1._SX94_SY140_.jpg
+genres;Animation,Comedy,Family,
+countries;USA,
+languages;English,Spanish,
+runtime;91
+year;2015
+rating;6.5
+title;Inside Out
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1._SX94_SY140_.jpg
+genres;Animation,Adventure,Comedy,Drama,Family,Fantasy,
+countries;USA,
+languages;English,
+runtime;95
+year;2015
+rating;8.3
+title;Furious Seven
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1._SX88_SY140_.jpg
+genres;Action,Crime,Thriller,
+countries;USA,
+languages;English,
+runtime;137
+year;2015
+rating;7.3
+title;The Martian
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1._SX95_SY140_.jpg
+genres;Adventure,Drama,Sci-Fi,
+countries;USA,UK,
+languages;English,Mandarin,
+runtime;144
+year;2015
+rating;8.1
+title;The Revenant
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjU4NDExNDM1NF5BMl5BanBnXkFtZTgwMDIyMTgxNzE@._V1._SX94_SY140_.jpg
+genres;Adventure,Drama,Thriller,Western,
+countries;USA,Hong Kong,Taiwan,Canada,
+languages;English,Pawnee,French,
+runtime;156
+year;2015
+rating;8.2
+title;Ant-Man
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;117
+year;2015
+rating;7.4
+title;Spectre
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM2Nzg4MzkwOF5BMl5BanBnXkFtZTgwNzA0OTE3NjE@._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Thriller,
+countries;UK,USA,
+languages;English,French,German,Italian,Spanish,
+runtime;148
+year;2015
+rating;6.9
+title;The Lego Movie
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1._SX94_SY140_.jpg
+genres;Animation,Action,Adventure,Comedy,Family,Fantasy,
+countries;Australia,USA,Denmark,
+languages;English,
+runtime;100
+year;2014
+rating;7.8
+title;Transformers: Age of Extinction
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjEwNTg1MTA5Nl5BMl5BanBnXkFtZTgwOTg2OTM4MTE@._V1._SX90_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,China,
+languages;English,
+runtime;165
+year;2014
+rating;5.7
+title;Guardians of the Galaxy
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,UK,
+languages;English,
+runtime;121
+year;2014
+rating;8.1
+title;Interstellar
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1._SX90_SY140_.jpg
+genres;Adventure,Drama,Sci-Fi,
+countries;USA,UK,
+languages;English,
+runtime;169
+year;2014
+rating;8.6
+title;The Hunger Games
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1._SX94_SY140_.jpg
+genres;Adventure,Drama,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;142
+year;2012
+rating;7.3
+title;The Hobbit: The Battle of the Five Armies
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BODAzMDgxMDc1MF5BMl5BanBnXkFtZTgwMTI0OTAzMjE@._V1._SX94_SY140_.jpg
+genres;Adventure,Fantasy,
+countries;New Zealand,USA,
+languages;English,
+runtime;144
+year;2014
+rating;7.5
+title;Maleficent
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ1NDk3NTk0MV5BMl5BanBnXkFtZTgwMTk3MDcxMzE@._V1._SX99_SY140_.jpg
+genres;Action,Adventure,Family,Fantasy,Romance,
+countries;USA,UK,
+languages;English,
+runtime;97
+year;2014
+rating;7.0
+title;Divergent
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYxMzYwODE4OV5BMl5BanBnXkFtZTgwNDE5MzE2MDE@._V1._SX90_SY140_.jpg
+genres;Adventure,Mystery,Sci-Fi,
+countries;USA,
+languages;English,Spanish,
+runtime;139
+year;2014
+rating;6.8
+title;Edge of Tomorrow
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1._SX94_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,Canada,
+languages;English,
+runtime;113
+year;2014
+rating;7.9
+title;How to Train Your Dragon 2
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMzMwMTAwODczN15BMl5BanBnXkFtZTgwMDk2NDA4MTE@._V1._SX94_SY140_.jpg
+genres;Animation,Action,Adventure,Comedy,Family,Fantasy,
+countries;USA,
+languages;English,
+runtime;102
+year;2014
+rating;7.9
+title;The Imitation Game
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNDkwNTEyMzkzNl5BMl5BanBnXkFtZTgwNTAwNzk3MjE@._V1._SX95_SY140_.jpg
+genres;Biography,Drama,Thriller,War,
+countries;UK,USA,
+languages;English,German,
+runtime;114
+year;2014
+rating;8.1
+title;The Maze Runner
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1._SX94_SY140_.jpg
+genres;Action,Mystery,Sci-Fi,Thriller,
+countries;USA,Canada,UK,
+languages;English,
+runtime;113
+year;2014
+rating;6.8
+title;Frozen
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1._SX94_SY140_.jpg
+genres;Animation,Adventure,Comedy,Family,Fantasy,Musical,
+countries;USA,
+languages;English,Icelandic,
+runtime;102
+year;2013
+rating;7.6
+title;Thor: The Dark World
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1._SX98_SY140_.jpg
+genres;Action,Adventure,Fantasy,
+countries;USA,
+languages;English,
+runtime;112
+year;2013
+rating;7.1
+title;The Wolf of Wall Street
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1._SX94_SY140_.jpg
+genres;Biography,Comedy,Crime,Drama,
+countries;USA,
+languages;English,French,
+runtime;180
+year;2013
+rating;8.2
+title;Man of Steel
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjI5OTYzNjI0Ml5BMl5BanBnXkFtZTcwMzM1NDA1OQ@@._V1._SX96_SY140_.jpg
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,Canada,UK,
+languages;English,
+runtime;143
+year;2013
+rating;7.2
+title;Iron Man Three
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIzMzAzMjQyM15BMl5BanBnXkFtZTcwNzM2NjcyOQ@@._V1._SY317._SX95_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,
+countries;USA,China,
+languages;English,
+runtime;130
+year;2013
+rating;7.3
+title;The Hobbit: The Desolation of Smaug
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1._SX95_SY140_.jpg
+genres;Adventure,Fantasy,
+countries;USA,New Zealand,
+languages;English,
+runtime;161
+year;2013
+rating;7.9
+title;The Hunger Games: Catching Fire
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1._SX94_SY140_.jpg
+genres;Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;146
+year;2013
+rating;7.6
+title;American Hustle
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1._SX94_SY140_.jpg
+genres;Crime,Drama,
+countries;USA,
+languages;English,Arabic,
+runtime;138
+year;2013
+rating;7.3
+title;The World's End
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNzA1MTk1MzY0OV5BMl5BanBnXkFtZTgwNjkzNTUwMDE@._V1._SX94_SY140_.jpg
+genres;Action,Comedy,Sci-Fi,
+countries;UK,USA,Japan,
+languages;English,
+runtime;109
+year;2013
+rating;7.0
+title;Gravity
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1._SX95_SY140_.jpg
+genres;Sci-Fi,Thriller,
+countries;UK,USA,
+languages;English,Greenlandic,
+runtime;91
+year;2013
+rating;7.8
+title;Despicable Me 2
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1._SX95_SY140_.jpg
+genres;Animation,Comedy,Family,
+countries;USA,
+languages;English,
+runtime;98
+year;2013
+rating;7.5
+title;Pulp Fiction
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1._SX94_SY140_.jpg
+genres;Crime,Drama,
+countries;USA,
+languages;English,Spanish,French,
+runtime;154
+year;1994
+rating;8.9
+title;Schindler's List
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMzMwMTM4MDU2N15BMl5BanBnXkFtZTgwMzQ0MjMxMDE@._V1._SX91_SY140_.jpg
+genres;Biography,Drama,History,
+countries;USA,
+languages;English,Hebrew,German,Polish,
+runtime;195
+year;1993
+rating;8.9
+title;The Dark Knight
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1._SX95_SY140_.jpg
+genres;Action,Crime,Drama,
+countries;USA,UK,
+languages;English,Mandarin,
+runtime;152
+year;2008
+rating;9.0
+title;Star Wars: Episode V - The Empire Strikes Back
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE2MzQwMTgxN15BMl5BanBnXkFtZTcwMDQzNjk2OQ@@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;124
+year;1980
+rating;8.8
+title;The Lord of the Rings: The Return of the King
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1._SX94_SY140_.jpg
+genres;Adventure,Drama,Fantasy,
+countries;USA,New Zealand,
+languages;English,Quenya,Old English,Sindarin,
+runtime;201
+year;2003
+rating;8.9
+title;Star Wars
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BOTIyMDY2NGQtOGJjNi00OTk4LWFhMDgtYmE3M2NiYzM0YTVmXkEyXkFqcGdeQXVyNTU1NTcwOTk@._V1._SX92_SY140_.jpg
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;121
+year;1977
+rating;8.7
+title;Fight Club
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1._SX94_SY140_.jpg
+genres;Drama,
+countries;USA,Germany,
+languages;English,
+runtime;139
+year;1999
+rating;8.9
+title;The Lord of the Rings: The Fellowship of the Ring
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1._SX96_SY140_.jpg
+genres;Adventure,Drama,Fantasy,
+countries;New Zealand,USA,
+languages;English,Sindarin,
+runtime;178
+year;2001
+rating;8.8
+title;The Matrix
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1._SX94_SY140_.jpg
+genres;Action,Sci-Fi,
+countries;USA,Australia,
+languages;English,
+runtime;136
+year;1999
+rating;8.7
+title;Se7en
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQwNTU3MTE4NF5BMl5BanBnXkFtZTcwOTgxNDM2Mg@@._V1._SX91_SY140_.jpg
+genres;Crime,Drama,Mystery,Thriller,
+countries;USA,
+languages;English,
+runtime;127
+year;1995
+rating;8.6
+title;Memento
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc4MjUxNDAwN15BMl5BanBnXkFtZTcwMDMwNDg3OA@@._V1._SX100_SY133_.jpg
+genres;Mystery,Thriller,
+countries;USA,
+languages;English,
+runtime;113
+year;2000
+rating;8.5
+title;It's a Wonderful Life
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1._SX94_SY140_.jpg
+genres;Drama,Family,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;130
+year;1946
+rating;8.6
+title;The Lord of the Rings: The Two Towers
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1._SX96_SY140_.jpg
+genres;Action,Adventure,Drama,Fantasy,
+countries;USA,New Zealand,
+languages;English,Sindarin,Old English,
+runtime;179
+year;2002
+rating;8.7
+title;Forrest Gump
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI1Nzk1MzQwMV5BMl5BanBnXkFtZTYwODkxOTA5._V1._SX98_SY140_.jpg
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;142
+year;1994
+rating;8.8
+title;Apocalypse Now
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1._SX100_SY133_.jpg
+genres;Drama,War,
+countries;USA,
+languages;English,French,Vietnamese,
+runtime;153
+year;1979
+rating;8.5
+title;American Beauty
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM4NTI5NzYyNV5BMl5BanBnXkFtZTgwNTkxNTYxMTE@._V1._SX95_SY140_.jpg
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;122
+year;1999
+rating;8.4
+title;Terminator 2: Judgment Day
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI4MDAwMDY3N15BMl5BanBnXkFtZTcwODIwMzMzMQ@@._V1._CR46,1,342,473._SX100_SY138_.jpg
+genres;Action,Sci-Fi,
+countries;USA,France,
+languages;English,Spanish,
+runtime;137
+year;1991
+rating;8.5
+title;Saving Private Ryan
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNjczODkxNTAxN15BMl5BanBnXkFtZTcwMTcwNjUxMw@@._V1._SX100_SY136_.jpg
+genres;Action,Drama,War,
+countries;USA,
+languages;English,French,German,Czech,
+runtime;169
+year;1998
+rating;8.6
+title;Alien
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU1ODQ4NjQyOV5BMl5BanBnXkFtZTgwOTQ3NDU2MTE@._V1._SX93_SY140_.jpg
+genres;Horror,Sci-Fi,
+countries;USA,UK,
+languages;English,Spanish,
+runtime;117
+year;1979
+rating;8.5
+title;Aliens
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYzNzU5MzQ4OV5BMl5BanBnXkFtZTcwMDcxNDg3OA@@._V1._SX100_SY133_.jpg
+genres;Action,Horror,Sci-Fi,
+countries;UK,USA,
+languages;English,
+runtime;137
+year;1986
+rating;8.4
+title;Eternal Sunshine of the Spotless Mind
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1._SX94_SY140_.jpg
+genres;Drama,Romance,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;108
+year;2004
+rating;8.4
+title;Reservoir Dogs
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQxMTAwMDQ3Nl5BMl5BanBnXkFtZTcwODMwNTgzMQ@@._V1._SX99_SY140_.jpg
+genres;Crime,Thriller,
+countries;USA,
+languages;English,
+runtime;99
+year;1992
+rating;8.4
+title;Inglourious Basterds
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIzMDI4MTUzOV5BMl5BanBnXkFtZTcwNDY3NjA3Mg@@._V1._SX95_SY140_.jpg
+genres;Adventure,Drama,War,
+countries;USA,Germany,
+languages;English,German,French,Italian,
+runtime;153
+year;2009
+rating;8.3
+title;Up
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1._SX93_SY140_.jpg
+genres;Animation,Adventure,Comedy,Family,
+countries;USA,
+languages;English,
+runtime;96
+year;2009
+rating;8.3
+title;Gladiator
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1._SX95_SY140_.jpg
+genres;Action,Drama,
+countries;USA,UK,
+languages;English,
+runtime;155
+year;2000
+rating;8.5
+title;Sin City
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI2NjUyMDUyMV5BMl5BanBnXkFtZTcwMzU0OTkyMQ@@._V1._SX98_SY140_.jpg
+genres;Crime,Thriller,
+countries;USA,
+languages;English,
+runtime;124
+year;2005
+rating;8.1
+title;Star Wars: Episode VI - Return of the Jedi
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0MzI1NjYwOF5BMl5BanBnXkFtZTgwODU3NDU2MTE@._V1._CR93,97,1209,1861._SX91_SY140_.jpg
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;131
+year;1983
+rating;8.4
+title;Batman Begins
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1._SX94_SY140_.jpg
+genres;Action,Adventure,
+countries;USA,UK,
+languages;English,Urdu,Mandarin,
+runtime;140
+year;2005
+rating;8.3
+title;Slumdog Millionaire
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1._SX95_SY140_.jpg
+genres;Drama,Romance,
+countries;UK,USA,
+languages;English,Hindi,French,
+runtime;120
+year;2008
+rating;8.0
+title;Blade Runner
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTA4MDQxNTk2NDheQTJeQWpwZ15BbWU3MDE2NjIyODk@._V1._SX93_SY140_.jpg
+genres;Sci-Fi,Thriller,
+countries;USA,Hong Kong,UK,
+languages;English,German,Cantonese,Japanese,Hungarian,
+runtime;117
+year;1982
+rating;8.2
+title;No Country for Old Men
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1._SX95_SY140_.jpg
+genres;Crime,Drama,Thriller,
+countries;USA,
+languages;English,Spanish,
+runtime;122
+year;2007
+rating;8.1
+title;The Sixth Sense
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1._SX95_SY140_.jpg
+genres;Drama,Mystery,Thriller,
+countries;USA,
+languages;English,Latin,Spanish,
+runtime;107
+year;1999
+rating;8.1
+title;Donnie Darko
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTczMzE4Nzk3N15BMl5BanBnXkFtZTcwNDg5Mjc4NA@@._V1._SX94_SY140_.jpg
+genres;Drama,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;113
+year;2001
+rating;8.1
+title;The Social Network
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1._SX89_SY140_.jpg
+genres;Biography,Drama,
+countries;USA,
+languages;English,French,
+runtime;120
+year;2010
+rating;7.7
+title;Kill Bill: Vol. 1
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1._SX90_SY140_.jpg
+genres;Action,
+countries;USA,
+languages;English,Japanese,French,
+runtime;111
+year;2003
+rating;8.1
+title;Million Dollar Baby
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1._SX95_SY140_.jpg
+genres;Drama,Sport,
+countries;USA,
+languages;English,Irish Gaelic,
+runtime;132
+year;2004
+rating;8.1
+title;How to Train Your Dragon
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1._SX94_SY140_.jpg
+genres;Animation,Adventure,Family,Fantasy,
+countries;USA,
+languages;English,
+runtime;98
+year;2010
+rating;8.2
+title;V for Vendetta
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1._SX95_SY140_.jpg
+genres;Action,Drama,Thriller,
+countries;USA,UK,Germany,
+languages;English,
+runtime;132
+year;2005
+rating;8.2
+title;The Incredibles
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1._SX95_SY140_.jpg
+genres;Animation,Action,Adventure,Family,
+countries;USA,
+languages;English,French,
+runtime;115
+year;2004
+rating;8.0
+title;A Streetcar Named Desire
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk3OTQ4MzY3M15BMl5BanBnXkFtZTcwODM0ODcyMg@@._V1._SX92_SY140_.jpg
+genres;Drama,
+countries;USA,
+languages;English,Spanish,
+runtime;122
+year;1951
+rating;8.1
+title;The Exorcist
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgxMjIyNTc5Nl5BMl5BanBnXkFtZTgwMjgwNDgwNzE@._V1._SX95_SY140_.jpg
+genres;Horror,
+countries;USA,
+languages;English,Latin,Greek,French,German,Arabic,
+runtime;122
+year;1973
+rating;8.0
+title;Kill Bill: Vol. 2
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTIwNzQ3MDIxMV5BMl5BanBnXkFtZTcwMDIxMzUyMQ@@._V1._SX95_SY140_.jpg
+genres;Action,Crime,Thriller,
+countries;USA,
+languages;English,Cantonese,Mandarin,Spanish,
+runtime;137
+year;2004
+rating;8.0
+title;Kick-Ass
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMzNzEzMDYxM15BMl5BanBnXkFtZTcwMTc0NTMxMw@@._V1._SX94_SY140_.jpg
+genres;Action,Comedy,
+countries;UK,USA,
+languages;English,
+runtime;117
+year;2010
+rating;7.7
+title;Pirates of the Caribbean: The Curse of the Black Pearl
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAyNDM4MTc2N15BMl5BanBnXkFtZTYwNDk0Mjc3._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Fantasy,
+countries;USA,
+languages;English,
+runtime;143
+year;2003
+rating;8.1
+title;The Room
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg4MTU1MzgwOV5BMl5BanBnXkFtZTcwNjM1MTAwMQ@@._V1._SX100_SY130_.jpg
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;99
+year;2003
+rating;3.5
+title;The Twilight Saga: Eclipse
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1._SX95_SY140_.jpg
+genres;Adventure,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;124
+year;2010
+rating;4.9
+title;The Twilight Saga: Breaking Dawn - Part 2
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1._SX94_SY140_.jpg
+genres;Adventure,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;115
+year;2012
+rating;5.5
+title;The Twilight Saga: New Moon
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI3MjE3NDIxNF5BMl5BanBnXkFtZTcwODM3NTY5Mg@@._V1._SX95_SY140_.jpg
+genres;Adventure,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,Italian,
+runtime;130
+year;2009
+rating;4.6
+title;A Good Day to Die Hard
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcwNzgyNzUzOV5BMl5BanBnXkFtZTcwMzAwOTA5OA@@._V1._SX94_SY140_.jpg
+genres;Action,Crime,Thriller,
+countries;USA,
+languages;English,Russian,Hindi,
+runtime;98
+year;2013
+rating;5.3
+title;Saw
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAyNTcxNzYwMV5BMl5BanBnXkFtZTgwMzQzNzM5MjE@._V1._SX94_SY140_.jpg
+genres;Horror,Mystery,
+countries;USA,Australia,
+languages;English,
+runtime;103
+year;2004
+rating;7.7
+title;Saw II
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjEzNTAyMDk5NF5BMl5BanBnXkFtZTcwOTA3MTEzMQ@@._V1._SX94_SY140_.jpg
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;93
+year;2005
+rating;6.6
+title;Saw III
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg3MzI5NjYxMl5BMl5BanBnXkFtZTcwOTA0NDkzMQ@@._V1._SX97_SY140_.jpg
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;108
+year;2006
+rating;6.2
+title;Saw IV
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1._SX95_SY140_.jpg
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;93
+year;2007
+rating;5.9
+title;Saw V
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMwOTI1NjczOV5BMl5BanBnXkFtZTcwNDQ4MTQ5MQ@@._V1._SX95_SY140_.jpg
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;92
+year;2008
+rating;5.8
+title;Saw VI
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY1MzkzNTYyMl5BMl5BanBnXkFtZTcwOTg4MjE5Ng@@._V1._SX95_SY140_.jpg
+genres;Horror,Mystery,
+countries;Canada,USA,UK,Australia,
+languages;English,
+runtime;90
+year;2009
+rating;6.0
+title;Disaster Movie
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTIzMDQyNDgwNl5BMl5BanBnXkFtZTcwMDA0MTc3MQ@@._V1._SX94_SY140_.jpg
+genres;Comedy,
+countries;USA,
+languages;English,
+runtime;87
+year;2008
+rating;1.9
+title;Epic Movie
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTA3NDM5ODU3NzleQTJeQWpwZ15BbWU3MDgyMjgyNDE@._V1._SX95_SY140_.jpg
+genres;Adventure,Comedy,
+countries;USA,
+languages;English,
+runtime;86
+year;2007
+rating;2.3
+title;Casablanca
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjQwNDYyNTk2N15BMl5BanBnXkFtZTgwMjQ0OTMyMjE@._V1._SX94_SY140_.jpg
+genres;Drama,Romance,War,
+countries;USA,
+languages;English,French,German,Italian,
+runtime;102
+year;1942
+rating;8.6
+title;Cinderella
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjMxODYyODEzN15BMl5BanBnXkFtZTgwMDk4OTU0MzE@._V1._SX94_SY140_.jpg
+genres;Drama,Family,Fantasy,Romance,
+countries;USA,UK,
+languages;English,
+runtime;105
+year;2015
+rating;7.0
+title;Planet of the Apes
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY5Nzg4NzAzMF5BMl5BanBnXkFtZTcwMjc5MzcyMQ@@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;119
+year;2001
+rating;5.7
+title;Saturday Night Fever
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU0NDk4MzA0NV5BMl5BanBnXkFtZTcwOTYwODIyMQ@@._V1._SX100_SY134_.jpg
+genres;Drama,Music,
+countries;USA,
+languages;English,Italian,
+runtime;118
+year;1977
+rating;6.8
+title;Harry Potter and the Sorcerer's Stone
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYwNTM5NDkzNV5BMl5BanBnXkFtZTYwODQ4MzY5._V1._SX100_SY138_.jpg
+genres;Adventure,Family,Fantasy,
+countries;UK,USA,
+languages;English,
+runtime;152
+year;2001
+rating;7.5
+title;Harry Potter and the Chamber of Secrets
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1._SX95_SY140_.jpg
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,Germany,
+languages;English,
+runtime;161
+year;2002
+rating;7.4
+title;Harry Potter and the Prisoner of Azkaban
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1._SX95_SY140_.jpg
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,
+runtime;142
+year;2004
+rating;7.8
+title;Harry Potter and the Goblet of Fire
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1._SX95_SY140_.jpg
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,French,
+runtime;157
+year;2005
+rating;7.6
+title;Harry Potter and the Order of the Phoenix
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1._SX95_SY140_.jpg
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,
+runtime;138
+year;2007
+rating;7.5
+title;Harry Potter and the Half-Blood Prince
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1._SX91_SY140_.jpg
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,
+runtime;153
+year;2009
+rating;7.5
+title;Harry Potter and the Deathly Hallows: Part 2
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY2MTk3MDQ1N15BMl5BanBnXkFtZTcwMzI4NzA2NQ@@._V1._SX94_SY140_.jpg
+genres;Adventure,Drama,Fantasy,Mystery,
+countries;USA,UK,
+languages;English,
+runtime;130
+year;2011
+rating;8.1
+title;E.T. the Extra-Terrestrial
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc1NTQ0MTUyNF5BMl5BanBnXkFtZTcwMDYzMDU2Mw@@._V1._SX90_SY140_.jpg
+genres;Family,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;115
+year;1982
+rating;7.8
+title;Titanic
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjExNzM0NDM0N15BMl5BanBnXkFtZTcwMzkxOTUwNw@@._V1._SX95_SY140_.jpg
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;194
+year;1997
+rating;7.7
+title;Point Break
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIxNDkzOTAyNV5BMl5BanBnXkFtZTgwNjEyOTY3NjE@._V1._SX94_SY140_.jpg
+genres;Action,Crime,Sport,Thriller,
+countries;USA,Germany,China,
+languages;English,
+runtime;114
+year;2015
+rating;5.3
+title;10 Things I Hate About You
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI4MzU5OTc2MF5BMl5BanBnXkFtZTYwNzQxMjc5._V1._SX98_SY140_.jpg
+genres;Comedy,Drama,Romance,
+countries;USA,
+languages;English,French,
+runtime;97
+year;1999
+rating;7.2
+title;Jurassic Park
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1._SX93_SY140_.jpg
+genres;Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,Spanish,
+runtime;127
+year;1993
+rating;8.1
+title;Jurassic World
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ5MTE0MTk3Nl5BMl5BanBnXkFtZTgwMjczMzk2NTE@._V1._SX88_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;124
+year;2015
+rating;7.1
+title;Cruel Intentions
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjMxNjM5OTQ2M15BMl5BanBnXkFtZTgwNjUxNzYxMTE@._V1._SX95_SY140_.jpg
+genres;Drama,Romance,
+countries;USA,
+languages;English,Vietnamese,French,
+runtime;97
+year;1999
+rating;6.9
+title;Crouching Tiger Hidden Dragon
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY5MjM4NjIxOF5BMl5BanBnXkFtZTcwNDg5NzU2OQ@@._V1._SX93_SY140_.jpg
+genres;Action,Drama,Romance,
+countries;Taiwan,Hong Kong,USA,China,
+languages;Mandarin,
+runtime;120
+year;2000
+rating;7.9
+title;Downfall
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM1OTI1MjE2Nl5BMl5BanBnXkFtZTcwMTEwMzc4NA@@._V1._SX94_SY140_.jpg
+genres;Biography,Drama,History,War,
+countries;Germany,Austria,Italy,
+languages;German,Russian,Hungarian,
+runtime;156
+year;2004
+rating;8.3
+title;Good Bye Lenin!
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI0MTg4NzI3M15BMl5BanBnXkFtZTcwOTE0MTUyMQ@@._V1._SX97_SY140_.jpg
+genres;Drama,Romance,
+countries;Germany,
+languages;German,English,Russian,
+runtime;121
+year;2003
+rating;7.7
+title;Run Lola Run
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA5MDg3MjYyOF5BMl5BanBnXkFtZTgwODk3NjkzMTE@._V1._SX94_SY140_.jpg
+genres;Crime,Drama,
+countries;Germany,
+languages;German,English,Japanese,
+runtime;81
+year;1998
+rating;7.8
+title;The Lives of Others
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNDUzNjYwNDYyNl5BMl5BanBnXkFtZTcwNjU3ODQ0MQ@@._V1._SX93_SY140_.jpg
+genres;Drama,Thriller,
+countries;Germany,
+languages;German,
+runtime;137
+year;2006
+rating;8.5
+title;Pan's Labyrinth
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU3ODg2NjQ5NF5BMl5BanBnXkFtZTcwMDEwODgzMQ@@._V1._SX95_SY140_.jpg
+genres;Drama,Fantasy,War,
+countries;Spain,Mexico,USA,
+languages;Spanish,
+runtime;118
+year;2006
+rating;8.2
+title;The Orphanage
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc3MjE0NzQzMV5BMl5BanBnXkFtZTYwMzI0ODc4._V1._SX99_SY140_.jpg
+genres;Drama,Mystery,Thriller,
+countries;Spain,
+languages;Spanish,
+runtime;105
+year;2007
+rating;7.5
+title;Spirited Away
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1._SX99_SY140_.jpg
+genres;Animation,Adventure,Family,Fantasy,
+countries;Japan,
+languages;Japanese,
+runtime;125
+year;2001
+rating;8.6
+title;Princess Mononoke
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjgzNTUwODQzN15BMl5BanBnXkFtZTcwMTc4ODE3OQ@@._V1._SX94_SY140_.jpg
+genres;Animation,Adventure,Fantasy,
+countries;Japan,
+languages;Japanese,
+runtime;134
+year;1997
+rating;8.4
+title;Howl's Moving Castle
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1._SX94_SY140_.jpg
+genres;Animation,Adventure,Family,Fantasy,
+countries;Japan,
+languages;Japanese,
+runtime;119
+year;2004
+rating;8.2
+title;Godzilla
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0ODgzNjg2MV5BMl5BanBnXkFtZTgwNDkxMzc3MDE@._V1._SX95_SY140_.jpg
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,Japan,
+languages;English,Japanese,
+runtime;123
+year;2014
+rating;6.5
+title;The Pianist
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1._SX93_SY140_.jpg
+genres;Biography,Drama,War,
+countries;France,Poland,Germany,UK,
+languages;English,German,Russian,
+runtime;150
+year;2002
+rating;8.5
+title;Persepolis
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzIxMDI0Nzc4NV5BMl5BanBnXkFtZTYwNjU5OTI4._V1._SX94_SY140_.jpg
+genres;Animation,Biography,Drama,War,
+countries;France,USA,
+languages;French,English,Persian,German,
+runtime;96
+year;2007
+rating;8.0
