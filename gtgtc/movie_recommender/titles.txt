@@ -17,7 +17,6 @@ Avengers: Age of Ultron
 Batman Begins
 Blade Runner
 Boyhood
-Carrie
 Casablanca
 Cinderella
 Clueless
@@ -80,7 +79,6 @@ Minions
 My Sister's Keeper
 No Country for Old Men
 Pan's Labyrinth
-Percy Jackson & the Olympians: The Lightning Thief
 Persepolis
 Pirates of the Caribbean: The Curse of the Black Pearl
 Planet of the Apes
@@ -141,7 +139,6 @@ The Pianist
 The Place Beyond the Pines
 The Revenant
 The Room
-The Secret Life of Bees
 The Sisterhood of the Traveling Pants
 The Sixth Sense
 The Social Network
