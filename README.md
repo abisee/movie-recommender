@@ -29,15 +29,15 @@
 - Open up your Downloads folder in Finder
 - Open the movie-recommender-master folder
 - Right click on features.py and click Open With, and select TextEdit
-- - Note: if you use TextEdit, you will need to turn off smart quotes in the settings.
-- - However, it would be better to download and use a different text editor like [Sublime](https://www.sublimetext.com/).
+  - Note: if you use TextEdit, you will need to turn off smart quotes in the settings.
+  - However, it would be better to download and use a different text editor like [Sublime](https://www.sublimetext.com/).
 - Do the same for titles.txt
 
 #####  For Windows users
 - Open up your Downloads folder in the File Explorer.
 - Click on the movie-recommender-master folder.
 - Right click on features.py and click Open With, and select WordPad.
-- - Note: you can use WordPad, but it would be better to download and use a different text editor like [Notepad++](https://notepad-plus-plus.org/).
+  - Note: you can use WordPad, but it would be better to download and use a different text editor like [Notepad++](https://notepad-plus-plus.org/).
 - Do the same for titles.txt
 
 Every time you **edit** a file, and want the changes to work when you run the program, you must **save** the file.
