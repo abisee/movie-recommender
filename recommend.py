@@ -7,19 +7,17 @@ from IPython.core.display import HTML
 def import_movies():
     """Returns movies, a dict from title strings to movie.
     Each movie is a dict from feature strings to information (string/integer/list)."""
-
     movies = {}
-
     with open('movies.txt') as f:
         for line in f:
             feature_name = line.split(';')[0]
             feature_data = line.split(';')[1][:-1] # cut off the \n
 
+            # This is the first feature so make a new dict
             if feature_name=='title':
-                # make a new dictionary
                 movie = {}
 
-            # add this feature to movie
+            # Add the feature to the movie
             if len(feature_data.split(','))>1: # list-of-strings features
                 movie[feature_name] = feature_data.split(',')[:-1]
             else:
@@ -30,7 +28,7 @@ def import_movies():
                 else: # single string features
                     movie[feature_name] = feature_data
 
-            # this is the last feature so save it
+            # This is the last feature so save the movie
             if feature_name=='votes':
                 movies[movie['title']]=movie
 
@@ -44,6 +42,9 @@ def import_movies():
 
 def collect_feat_items(movies,category_features):
     """Collects lists of all category feature values and the number of values.
+    Inputs:
+        movies: dict from title to movie feature dict
+        category_features: list of features to be collected
     Returns:
         cat_feat_items: dict from feature to list of values
         cat_feat_counts: dict from feature to number of values"""
@@ -90,8 +91,12 @@ def mpaa_to_num(mpaa_rating):
         raise ValueError('unknown rating!' + mpaa_rating)
 
 def create_vectors(movies,cat_feat_items):
-    """Takes the dict movies and returns movie_vectors, a dict from title strings
-    to vectors (lists of floats)"""
+    """Converts the dictionary representation to a vector representation.
+    Inputs:
+        movies: dict from title to movie feature dict
+        cat_feat_items: dict from category feature to list of possible values
+    Returns:
+        movie_vectors: dict from titles to vectors (lists)"""
 
     movie_vectors = {} # will contain vectors
     for key,movie in movies.iteritems():
@@ -123,15 +128,9 @@ def create_vectors(movies,cat_feat_items):
 # STEP 4: NORMALIZE THE VECTORS
 ##########################################################################
 
-def calc_vec_dim():
-    """Calculate what the dimension of the vectors should be"""
-    d = len(noncategory_features) # five non-categorical features
-    for f in category_features:
-        d += cat_feat_counts[f]
-    return d
 
 def get_means(d,movie_vectors,num_movies):
-    """Calculate the mean of the data"""
+    """Calculate the mean for each of d dimensions"""
     means = [0.0] * d
     for key,vec in movie_vectors.iteritems():
         for i in range(d):
@@ -141,7 +140,7 @@ def get_means(d,movie_vectors,num_movies):
     return means
 
 def get_stds(d,movie_vectors,num_movies,means):
-    """Calculate the standard deviation of the data"""
+    """Calculate the standard deviation for each of d dimensions"""
     stds = [0.0] * d
     for key,vec in movie_vectors.iteritems():
         for i in range(d):
@@ -157,10 +156,16 @@ def normalize(x,mean,std):
     return (x-mean)/std
 
 
-def normalize_vec(movie_vec, d, features_to_normalize, means, stds):
+def normalize_vec(movie_vec, features_to_normalize, means, stds):
     """Normalizes a single vector according to given means and stds.
-    features_to_normalize is a dict from feature names to 0 or 1.
-    We normalize features marked with 1."""
+    Inputs:
+        movie_vec: single movie vec
+        features_to_normalize: a dict from feature names to 0 or 1.
+            We normalize features marked with 1.
+        means and stds: the means and stds over all movie vectors and dimensions
+    Returns:
+        normalized_vec: movie_vec normalized"""
+    d = len(movie_vec)
     normalized_vec = [0.0] * d
     for idx,f in enumerate(noncategory_features): # non category features
         if features_to_normalize[f] == 1:
@@ -184,7 +189,7 @@ def get_normed_vecs(movie_vectors):
     Returns movie_vectors_norm, a dictionary from title strings to normalized vectors."""
     movie_vectors_norm = {} # will contain normalized vectors
 
-    # specify which features to normalize
+    # Specify which features to normalize
     features_to_normalize = {
         'year' : 1, # year of release
         'rating': 1, # IMDB rating out of 10
@@ -199,45 +204,40 @@ def get_normed_vecs(movie_vectors):
         'cast': 0, # top three actors
         'production companies': 1
     }
-    # calculate the means and stds
-    d = calc_vec_dim()
-    num_movies = len(movies.keys())
+
+    # Calculate the means and stds
+    _,any_movie_vec = movie_vectors.popitem() # get any movie...
+    d = len(any_movie_vec) # ...to obtain the length
+    num_movies = len(movies.keys()) # get the total number of movies
     means = get_means(d,movie_vectors,num_movies)
     stds = get_stds(d,movie_vectors,num_movies,means)
 
-    # normalize the movie vectors
+    # Normalize the movie vectors
     for key,vec in movie_vectors.iteritems():
-        movie_vectors_norm[key] = normalize_vec(vec,d,features_to_normalize,means,stds)
+        movie_vectors_norm[key] = normalize_vec(vec,features_to_normalize,means,stds)
 
     return movie_vectors_norm
-
-movies = import_movies()
-category_features = ['genres', 'countries', 'languages', 'aspect ratio', 'director', 'cast', 'production companies']
-noncategory_features = ['year', 'rating', 'runtime', 'mpaa', 'votes']
-cat_feat_items,cat_feat_counts = collect_feat_items(movies,category_features)
-movie_vectors = create_vectors(movies,cat_feat_items)
-movie_vectors_norm = get_normed_vecs(movie_vectors)
 
 ##########################################################################
 # STEP 5: CODE TO CALCULATE DISTANCES BETWEEN MOVIE VECTORS
 ##########################################################################
 
-def eucl_dist(vec1,vec2):
-    """returns euclidean distance between vec1 and vec2, which are both lists of the same length"""
-    dist = 0
-    l = len(vec1)
-    for i in range(l):
-        dist += abs(vec1[i] - vec2[i])**2
-    return dist**0.5
-
-def manh_dist(vec1, vec2):
-    """ vec1 and vec2 are both lists of numbers, with the same length.
-    This function returns the Manhattan distance between vec1 and vec2."""
-    dist = 0
-    l = len(vec1)
-    for i in range(l):
-        dist += abs(vec1[i] - vec2[i])**2
-    return dist
+# def eucl_dist(vec1,vec2):
+#     """returns euclidean distance between vec1 and vec2, which are both lists of the same length"""
+#     dist = 0
+#     l = len(vec1)
+#     for i in range(l):
+#         dist += abs(vec1[i] - vec2[i])**2
+#     return dist**0.5
+#
+# def manh_dist(vec1, vec2):
+#     """ vec1 and vec2 are both lists of numbers, with the same length.
+#     This function returns the Manhattan distance between vec1 and vec2."""
+#     dist = 0
+#     l = len(vec1)
+#     for i in range(l):
+#         dist += abs(vec1[i] - vec2[i])
+#     return dist
 
 def list_subtract(vec1,vec2):
     """vec1 and vec2 are lists of the same length, containing numbers.
@@ -247,6 +247,7 @@ def list_subtract(vec1,vec2):
     for i in range(l):
         answer.append(vec1[i]-vec2[i])
     return answer
+
 
 def reweight_vec(movie_vec, feature_weights):
     """Returns a reweighted version of movie_vec according to the weights in feature_weights.
@@ -267,6 +268,7 @@ def get_dists(movie_key, feature_weights, distance_function):
     """Calculates the distance from all movies in the database to movie_key,
     using the weights given in feature_weights.
     Returns a list of (dist,key) tuples that doesn't include the original movie."""
+
     # reweight all the vectors
     movie_vecs_reweighted = {}
     for key,vec in movie_vectors_norm.iteritems():
@@ -282,20 +284,9 @@ def get_dists(movie_key, feature_weights, distance_function):
     return dists_sorted
 
 ##########################################################################
-# CODE TO PRINT INFORMATION (including HTML)
+# STEP 6: CODE TO PRINT INFORMATION (including HTML)
 ##########################################################################
 
-def pretty_print_vec(movie_vec):
-    """for debugging. prints the vector along with corresponding features"""
-    for idx,f in enumerate(noncategory_features): # non category features
-        if movie_vec[idx]!=0:
-            print "%.3f %s" % (movie_vec[idx], f)
-    start_idx = len(noncategory_features) # category features
-    for f in category_features:
-        for idx,item in enumerate(cat_feat_items[f]):
-            if movie_vec[start_idx + idx]!=0:
-                print "%.3f %s" % (movie_vec[start_idx + idx], item)
-        start_idx = start_idx + cat_feat_counts[f]
 
 def comma_list(lst):
     """takes a python list of strings, returns a string separated by commas"""
@@ -388,8 +379,11 @@ def get_feature_order(feature_weights):
         feature_order.append(f)
     return feature_order
 
-def html_table(movie_key, feature_weights, distance=eucl_dist):
+def get_recommendations(movie_key, feature_weights, distance):
     """HTML-prints a table of all movies with features and distance"""
+    if movie_key not in movies.keys():
+        print 'That film isn\'t in the database. Did you type it correctly?'
+        return
 
     feature_order = get_feature_order(feature_weights)
     dists_sorted = get_dists(movie_key,feature_weights,distance)
@@ -403,3 +397,18 @@ def html_table(movie_key, feature_weights, distance=eucl_dist):
         html_string += table_row_print(key,dist,feature_order)
     html_string += "</table>"
     return HTML(html_string)
+
+##########################################################################
+# MAIN
+##########################################################################
+
+movies = import_movies()
+
+# Noncategory features in the order they appear in the vectors
+noncategory_features = ['year', 'rating', 'runtime', 'mpaa', 'votes']
+# The category features, in the order they appear in the vectors
+category_features = ['genres', 'countries', 'languages', 'aspect ratio', 'director', 'cast', 'production companies']
+
+cat_feat_items,cat_feat_counts = collect_feat_items(movies,category_features)
+movie_vectors = create_vectors(movies,cat_feat_items)
+movie_vectors_norm = get_normed_vecs(movie_vectors)
