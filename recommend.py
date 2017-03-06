@@ -124,13 +124,13 @@ def postprocess_movies(title2movie):
           try:
             rating = float(rating)
           except:
-            print "unusual parents guidance rating:"
-            print fst_sent
-            print rating
-            print ""
+            # print "unusual parents guidance rating:"
+            # print fst_sent
+            # print rating
+            # print ""
             continue
           movie[f] = rating
-  print "After postprocessing there are %i movies" % len(title2movie.keys())
+  # print "After postprocessing there are %i movies" % len(title2movie.keys())
 
 
 ##########################################################################
@@ -265,13 +265,11 @@ def create_vectors(title2movie, feat2items):
   Returns:
     title2MVec: dict from titles to vectors (lists)"""
 
-  print "setting vector layout..."
   dim, feat2indices, item2index, index2feat = set_vec_layout(feat2items)
   title2MVec = {} # will contain vectors
-  print "creating MovieVectors..."
   for key,movie in title2movie.iteritems():
     title2MVec[key] = MovieVec(movie, dim, index2feat, feat2indices, item2index)
-  print "Created %i MovieVectors" % len(title2MVec.keys())
+  # print "Created %i MovieVectors" % len(title2MVec.keys())
   return title2MVec
 
 
@@ -314,7 +312,7 @@ def get_normed_vecs(title2MVec):
   # Normalize the movie vectors
   for _,mvec in title2MVec.iteritems():
     mvec.normalize(means, stds)
-  print "After normalizing there are %i MovieVectors" % len(title2MVec.keys())
+  # print "After normalizing there are %i MovieVectors" % len(title2MVec.keys())
   return title2MVec
 
 
@@ -330,15 +328,9 @@ def manh_dist(mvec1, mvec2):
   """Returns Manhattan distance between mvec1 and mvec2, which are both MovieVectors"""
   return np.linalg.norm(mvec1.vec-mvec2.vec, 1)
 
-def get_dists(query_title, feat2weight, distance_function, title2MVec_norm):
-  """Calculates the distance from all movies in the database to query_title,
-  using the weights given in feat2weight.
+def get_dists(query_title, title2MVec_reweighted, distance_function):
+  """Calculates the distance from all movies in the database to query_title.
   Returns a list of (dist,key) tuples that doesn't include the original movie."""
-
-  # Copy the movie vecs then reweight
-  title2MVec_reweighted = copy.deepcopy(title2MVec_norm)
-  for mvec in title2MVec_reweighted.values():
-    mvec.reweight(feat2weight)
 
   query_mvec = title2MVec_reweighted[query_title]
 
@@ -382,7 +374,7 @@ def table_row(data, header=False):
   to_return += "</tr>"
   return to_return
 
-def colgroup(feat2weight,feature_order):
+def colgroup(feat2weight, feature_order):
   """Returns a HTML string giving the <col> attributes for the table"""
   to_return = "<colgroup>"
   for f in feature_order:
@@ -392,6 +384,14 @@ def colgroup(feat2weight,feature_order):
       to_return += "<col span=\"1\" style=\"background-color:white\">" # used
     else:
       to_return += "<col span=\"1\" style=\"background-color:grey\">" # unused
+  to_return += "</colgroup>"
+  return to_return
+
+def loss_colgroup():
+  """Returns a HTML string giving the <col> attributes for the loss table"""
+  to_return = "<colgroup>"
+  for _ in range(3):
+    to_return += "<col span=\"1\" style=\"background-color:white\">"
   to_return += "</colgroup>"
   return to_return
 
@@ -469,16 +469,28 @@ def search_titles(query_title, title2MVec):
   print "That film isn\'t in the database. Did you type it correctly?"
   return None
 
+def reweight(title2MVec_norm, feat2weight):
+  # Copy the movie vecs then reweight
+  title2MVec_reweighted = copy.deepcopy(title2MVec_norm)
+  for mvec in title2MVec_reweighted.values():
+    mvec.reweight(feat2weight)
+  return title2MVec_reweighted
+
 
 def get_recommendations(query_title, feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
-  """HTML-prints a table of all movies with given feature weights and distance_function. Returns a HTML string."""
+  """Returns a table containing all movies, sorted in order of nearest neighbors. Weigts features according to feat2weight first. Uses given distance_function. Returns a HTML string for a table."""
   query_title = search_titles(query_title, title2MVec_norm)
   if query_title is None: return
 
-  feature_order = get_feature_order(feat2weight)
-  dists_sorted = get_dists(query_title, feat2weight, distance_function, title2MVec_norm)
+  # Reweight
+  title2MVec_reweighted = reweight(title2MVec_norm, feat2weight)
 
-  html_string = "<table>"
+  # Get the distances
+  dists_sorted = get_dists(query_title, title2MVec_reweighted, distance_function)
+
+  # Make HTML table
+  feature_order = get_feature_order(feat2weight)
+  html_string = "<table style='font-size:8pt;'>"
   html_string += colgroup(feat2weight,feature_order)
   headers = [feat_to_header(f) for f in feature_order]
   html_string += table_row(headers, header=True)
@@ -494,64 +506,57 @@ def get_recommendations(query_title, feat2weight, title2MVec_norm, title2movie, 
 
 # Some movies have a list of recommendations, a subset of which may be in the dataset. The loss for one example is the average rank of these recommendations, normalized by the total number of movies. The loss for the whole dataset is the average of this over all examples that have in-dataset recommendations
 
-def loss_per_ex(query_title, feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
-
-  query_mvec = title2MVec_norm[query_title]
+def get_rec_ranks(query_title, title2MVec_reweighted, title2movie, distance_function=eucl_dist):
+  """Returns list of (recommended movie, rank), otherwise None if no in-dataset recommendations"""
+  # Get list of recommendations
+  query_mvec = title2MVec_reweighted[query_title]
   query_mdict = title2movie[query_title]
-  if 'recommendations' not in query_mdict.keys(): return None, None
+  if 'recommendations' not in query_mdict.keys(): return None
   recs = query_mdict['recommendations']['database']
   recs_titles = [r[0] for r in recs if r[0] in title2movie.keys() and r[0]!=query_title] # list of titles
-  if len(recs_titles)==0: return None, None
+  if len(recs_titles)==0: return None
 
-  dists_sorted = get_dists(query_title, feat2weight, distance_function, title2MVec_norm)
+  # Get distances
+  dists_sorted = get_dists(query_title, title2MVec_reweighted, distance_function)
   title_list = [x[0] for x in dists_sorted]
 
-  try:
-    recs_ranks = [title_list.index(t) for t in recs_titles]
-  except Exception as e:
-    print "query title: ", query_title
-    print e
-    print "original recommendations: ", recs
-    print "filtered recommendations: ", recs_titles
-    print "all %i keys: " % len(title2movie.keys()), sorted(title2movie.keys())
-    print "all %i titles in distance order: " % len(title_list), title_list
-    exit()
-  loss = sum(recs_ranks)
-  loss = float(loss) / len(recs_ranks)
-  # loss /= len(title2movie.keys())
+  # Get ranks of recommenation titles
+  recs_ranks = [title_list.index(t) for t in recs_titles]
 
-  # print ""
-  # print query_title
-  # print recs_titles
-  # print recs_ranks
-  # print loss
-
-  return loss, zip(recs_titles, recs_ranks)
+  return zip(recs_titles, recs_ranks)
 
 
 def get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
+  """Prints information about loss"""
   print "calculating loss..."
-  losses = [] # (title, loss) pair
+
+  # Reweight
+  title2MVec_reweighted = reweight(title2MVec_norm, feat2weight)
+
+  # Get recommendations and ranks per example
+  movie_rec_rank_tuples = [] # list of (title, rec, rank)
   num_movies = len(title2movie.keys())
   for idx,title in enumerate(title2movie.keys()):
-    if idx % 10 == 0: print "title %i of %i" % (idx, num_movies)
-    ex_loss, ex_recs = loss_per_ex(title, feat2weight, title2MVec_norm, title2movie, distance_function)
-    if ex_loss is not None:
-      losses.append((title, ex_loss, ex_recs))
+    # if idx % 10 == 0: print "title %i of %i" % (idx, num_movies)
+    rec_rank_tuple = get_rec_ranks(title, title2MVec_reweighted, title2movie, distance_function)
+    if rec_rank_tuple is not None:
+      for (rec, rank) in rec_rank_tuple:
+        movie_rec_rank_tuples.append((title, rec, rank))
+  movie_rec_rank_tuples = sorted(movie_rec_rank_tuples, key=lambda (m,rec,rank): rank, reverse=True)
 
-  losses = sorted(losses, key=lambda (t,l,r): l, reverse=True)
-  avg_loss = float(sum([l for (_,l,_) in losses])) / len(losses)
+  # Calc loss
+  avg_loss = float(sum([rank for (m,rec,rank) in movie_rec_rank_tuples])) / len(movie_rec_rank_tuples)
 
-  print "overall loss: ", avg_loss
-  print ""
-  for (t,l,r) in losses:
-    print "%s has loss %.2f. It gave these rankings for these related movies:" % (t,l)
-    for (rec_t, rec_r) in r:
-      print "%s %i" % (rec_t, rec_r)
-
-  print ""
-
-
+  # Print info in a table
+  html_string = heading("Your score: %.2f" % (avg_loss), 2)
+  html_string += "<table>"
+  html_string += loss_colgroup()
+  headers = ['movie', 'IMDB recommendation', 'your rank (from 0 to %i)' % (num_movies-1)]
+  html_string += table_row(headers, header=True)
+  for (m, rec, rank) in movie_rec_rank_tuples:
+    html_string += table_row([m, rec, rank])
+  html_string += "</table>"
+  return HTML(html_string)
 
 
 ##########################################################################
@@ -559,15 +564,15 @@ def get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_d
 ##########################################################################
 
 def init():
-  print "importing movies..."
+  print "Importing movies..."
   title2movie = import_movies()
-  print "postprocessing..."
+  print "Postprocessing..."
   postprocess_movies(title2movie)
-  print "collecting items..."
+  print "Collecting items..."
   feat2items = collect_feat_items(title2movie)
-  print "creating vectors..."
+  print "Creating vectors..."
   title2MVec = create_vectors(title2movie, feat2items)
-  print "normalizing..."
+  print "Normalizing..."
   title2MVec_norm = get_normed_vecs(title2MVec)
   return title2MVec_norm, title2movie
 
