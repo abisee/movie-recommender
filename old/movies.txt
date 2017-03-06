@@ -1,0 +1,2268 @@
+title;The Fault in Our Stars
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA4NzkxNzc5Ml5BMl5BanBnXkFtZTgwNzQ3OTMxMTE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Josh Boone
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;126
+cast;Shailene Woodley,Ansel Elgort,Nat Wolff,
+production companies;Fox 2000 Pictures
+year;2014
+rating;7.9
+votes;237301
+title;Mean Girls
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1._SX99_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Mark Waters
+genres;Comedy,
+countries;USA,Canada,
+languages;English,German,Vietnamese,Swahili,
+runtime;97
+cast;Lindsay Lohan,Rachel McAdams,Tina Fey,
+production companies;Paramount Pictures
+year;2004
+rating;7.0
+votes;237335
+title;The Perks of Being a Wallflower
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzIxOTQyODU1OV5BMl5BanBnXkFtZTcwMDQ4Mjg4Nw@@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Stephen Chbosky
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;102
+cast;Logan Lerman,Dylan McDermott,Kate Walsh,
+production companies;Summit Entertainment
+year;2012
+rating;8.0
+votes;338566
+title;Wild Child
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk5MDYxODYxNV5BMl5BanBnXkFtZTcwMjU5ODc4MQ@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Nick Moore
+genres;Comedy,Drama,Romance,
+countries;USA,UK,France,
+languages;English,
+runtime;98
+cast;Emma Roberts,Lexi Ainsworth,Shelby Young,
+production companies;Universal Pictures
+year;2008
+rating;6.1
+votes;35631
+title;My Sister's Keeper
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ2NDg4MDU3NF5BMl5BanBnXkFtZTcwMjg5Njc1Mg@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Nick Cassavetes
+genres;Drama,
+countries;USA,
+languages;English,Croatian,
+runtime;109
+cast;Abigail Breslin,Walter Raney,Sofia Vassilieva,
+production companies;Curmudgeon Films
+year;2009
+rating;7.4
+votes;72517
+title;Clueless
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgxODIxODE2MF5BMl5BanBnXkFtZTgwOTA4NjQxMTE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Amy Heckerling
+genres;Comedy,Romance,
+countries;USA,
+languages;English,Spanish,
+runtime;97
+cast;Alicia Silverstone,Stacey Dash,Brittany Murphy,
+production companies;Paramount Pictures
+year;1995
+rating;6.8
+votes;118211
+title;Legally Blonde
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNTEyNjUwMTkxMV5BMl5BanBnXkFtZTcwNjk0NDk0NA@@._V1._SX93_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Robert Luketic
+genres;Comedy,Romance,
+countries;USA,
+languages;English,
+runtime;96
+cast;Reese Witherspoon,Luke Wilson,Selma Blair,
+production companies;Metro-Goldwyn-Mayer (MGM)
+year;2001
+rating;6.2
+votes;126427
+title;The Sisterhood of the Traveling Pants
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY0NjgyNzUwNl5BMl5BanBnXkFtZTcwMDkxNjgyMQ@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Ken Kwapis
+genres;Comedy,Drama,Romance,
+countries;USA,
+languages;English,Greek,Spanish,
+runtime;119
+cast;Amber Tamblyn,Alexis Bledel,America Ferrera,
+production companies;Alcon Entertainment
+year;2005
+rating;6.6
+votes;43519
+title;When in Rome
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM0OTQ3MjgzN15BMl5BanBnXkFtZTcwMjMyNzg3Mg@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Mark Steven Johnson
+genres;Comedy,Romance,
+countries;USA,
+languages;English,Italian,Ukrainian,
+runtime;91
+cast;Kristen Bell,Josh Duhamel,Anjelica Huston,
+production companies;Touchstone Pictures
+year;2010
+rating;5.5
+votes;49786
+title;Warm Bodies
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ4MjY2MjMzOV5BMl5BanBnXkFtZTcwMDUxNzIwOQ@@._V1._CR43,43.16667175292969,1298,1960.9999542236328._SX93_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Jonathan Levine
+genres;Comedy,Horror,Romance,
+countries;USA,Canada,
+languages;English,
+runtime;98
+cast;Nicholas Hoult,Teresa Palmer,Analeigh Tipton,
+production companies;Summit Entertainment
+year;2013
+rating;6.9
+votes;179810
+title;A Cinderella Story
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTA1NDI0OTkwNDNeQTJeQWpwZ15BbWU3MDQ3Nzc1MjE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Mark Rosman
+genres;Comedy,Family,Romance,
+countries;USA,Canada,
+languages;English,German,Czech,
+runtime;95
+cast;Hilary Duff,Jennifer Coolidge,Chad Michael Murray,
+production companies;Warner Bros.
+year;2004
+rating;5.9
+votes;60545
+title;Twilight
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Catherine Hardwicke
+genres;Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;122
+cast;Kristen Stewart,Sarah Clarke,Matt Bushell,
+production companies;Summit Entertainment
+year;2008
+rating;5.2
+votes;341842
+title;Step Up 2: The Streets
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc0NzYxOTgxOF5BMl5BanBnXkFtZTcwMTgxMjc1MQ@@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Jon M. Chu
+genres;Drama,Music,Musical,Romance,
+countries;USA,
+languages;English,Russian,
+runtime;98
+cast;Briana Evigan,Robert Hoffman,Adam G. Sevani,
+production companies;Touchstone Pictures
+year;2008
+rating;6.2
+votes;66041
+title;So Undercover
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BODEyMDE2Nzg4MV5BMl5BanBnXkFtZTcwNDI0NDE4OA@@._V1._SX99_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Tom Vaughan
+genres;Action,Comedy,
+countries;USA,
+languages;English,
+runtime;94
+cast;Miley Cyrus,Jeremy Piven,Mike O'Malley,
+production companies;Exclusive Media Group
+year;2012
+rating;5.0
+votes;14054
+title;Jack the Giant Slayer
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE1NDMxMjI0OV5BMl5BanBnXkFtZTcwMjQyMDExOQ@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Bryan Singer
+genres;Adventure,Fantasy,
+countries;USA,
+languages;English,
+runtime;114
+cast;Nicholas Hoult,Eleanor Tomlinson,Ewan McGregor,
+production companies;New Line Cinema
+year;2013
+rating;6.3
+votes;103287
+title;Avatar
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1._SX95_SY140_.jpg
+aspect ratio;1.78 : 1
+director;James Cameron
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,UK,
+languages;English,Spanish,
+runtime;162
+cast;Sam Worthington,Zoe Saldana,Sigourney Weaver,
+production companies;Twentieth Century Fox Film Corporation
+year;2009
+rating;7.9
+votes;863263
+title;A Walk to Remember
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM1MTYzNjA3M15BMl5BanBnXkFtZTcwMjk2NTE4Mg@@._V1._SX98_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Adam Shankman
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;101
+cast;Shane West,Mandy Moore,Peter Coyote,
+production companies;Warner Bros.
+year;2002
+rating;7.4
+votes;158700
+title;Ella Enchanted
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI2MjI3Nzg3NV5BMl5BanBnXkFtZTcwMjc2NTYyMQ@@._V1._SX99_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Tommy O'Haver
+genres;Comedy,Family,Fantasy,Romance,
+countries;USA,Ireland,UK,
+languages;English,
+runtime;96
+cast;Anne Hathaway,Hugh Dancy,Cary Elwes,
+production companies;Miramax
+year;2004
+rating;6.3
+votes;46187
+title;The Fast and the Furious
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAwNTQ0Nzc2M15BMl5BanBnXkFtZTcwNTk1MDIwNA@@._V1._SX90_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Rob Cohen
+genres;Action,Crime,Thriller,
+countries;USA,Germany,
+languages;English,
+runtime;106
+cast;Paul Walker,Vin Diesel,Michelle Rodriguez,
+production companies;Universal Pictures
+year;2001
+rating;6.7
+votes;264376
+title;Easy A
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Will Gluck
+genres;Comedy,Romance,
+countries;USA,
+languages;English,
+runtime;92
+cast;Emma Stone,Penn Badgley,Amanda Bynes,
+production companies;Screen Gems
+year;2010
+rating;7.1
+votes;267902
+title;Prom
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQyNDcyODI2NV5BMl5BanBnXkFtZTcwMTA3NTAzNA@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Joe Nussbaum
+genres;Comedy,Drama,
+countries;USA,
+languages;English,
+runtime;104
+cast;Aimee Teegarden,Thomas McDonell,DeVaughn Nixon,
+production companies;Rickshaw Productions
+year;2011
+rating;5.4
+votes;12439
+title;Juno
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgxMjgyMTcyNF5BMl5BanBnXkFtZTcwMDg1MTU1MQ@@._V1._SX90_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Jason Reitman
+genres;Comedy,Drama,Romance,
+countries;USA,
+languages;English,
+runtime;96
+cast;Ellen Page,Michael Cera,Jennifer Garner,
+production companies;Fox Searchlight Pictures
+year;2007
+rating;7.5
+votes;404381
+title;Inception
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Christopher Nolan
+genres;Action,Mystery,Sci-Fi,Thriller,
+countries;USA,UK,
+languages;English,Japanese,French,
+runtime;148
+cast;Leonardo DiCaprio,Joseph Gordon-Levitt,Ellen Page,
+production companies;Warner Bros.
+year;2010
+rating;8.8
+votes;1416280
+title;Speak
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI4NTkwNjQ1Ml5BMl5BanBnXkFtZTcwMTgyNzUyMQ@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Jessica Sharzer
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;89
+cast;Kristen Stewart,Elizabeth Perkins,Dick Hagerman,
+production companies;Speak Film Inc.
+year;2004
+rating;7.4
+votes;19879
+title;The Hole
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk5MzY2Nzg4Nl5BMl5BanBnXkFtZTcwMDYwNDUyMQ@@._V1._SX99_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Nick Hamm
+genres;Drama,Mystery,Thriller,
+countries;UK,
+languages;English,
+runtime;102
+cast;Thora Birch,Desmond Harrington,Daniel Brocklebank,
+production companies;Canal+
+year;2001
+rating;6.2
+votes;38934
+title;X-Men Origins: Wolverine
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI2MTgyNjExM15BMl5BanBnXkFtZTcwNzU4MjkyMg@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Gavin Hood
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,UK,
+languages;English,
+runtime;107
+cast;Hugh Jackman,Liev Schreiber,Danny Huston,
+production companies;Twentieth Century Fox Film Corporation
+year;2009
+rating;6.7
+votes;346772
+title;The 5th Wave
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjQwOTc0Mzg3Nl5BMl5BanBnXkFtZTgwOTg3NjI2NzE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;J Blakeson
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;112
+cast;Chloe Grace Moretz,Matthew Zuk,Gabriela Lopez,
+production companies;Columbia Pictures
+year;2016
+rating;5.3
+votes;24637
+title;Tomorrowland
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0MDc5MjAyNF5BMl5BanBnXkFtZTgwMzU5Mzk1NjE@._V1._SX95_SY140_.jpg
+aspect ratio;1.90 : 1
+director;Brad Bird
+genres;Action,Adventure,Family,Mystery,Sci-Fi,
+countries;USA,Spain,
+languages;English,French,Japanese,
+runtime;130
+cast;George Clooney,Hugh Laurie,Britt Robertson,
+production companies;Walt Disney Pictures
+year;2015
+rating;6.5
+votes;117390
+title;Grease
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcyMTA5MTY3MF5BMl5BanBnXkFtZTgwMTMwNzAxMDE@._V1._SX94_SY140_.jpg
+aspect ratio;2.20 : 1
+director;Randal Kleiser
+genres;Musical,Romance,
+countries;USA,
+languages;English,
+runtime;110
+cast;John Travolta,Olivia Newton-John,Stockard Channing,
+production companies;Paramount Pictures
+year;1978
+rating;7.2
+votes;164785
+title;American Pie
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Paul Weitz
+genres;Comedy,
+countries;USA,
+languages;English,
+runtime;95
+cast;Jason Biggs,Chris Klein,Thomas Ian Nicholas,
+production companies;Universal Pictures
+year;1999
+rating;7.0
+votes;309808
+title;Dazed and Confused
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Richard Linklater
+genres;Comedy,
+countries;USA,
+languages;English,
+runtime;102
+cast;Jason London,Joey Lauren Adams,Milla Jovovich,
+production companies;Gramercy Pictures
+year;1993
+rating;7.7
+votes;115077
+title;X-Men
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BOTU3MzA3ODYyM15BMl5BanBnXkFtZTgwMDgwNzc3NjE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Bryan Singer
+genres;Action,Adventure,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;104
+cast;Hugh Jackman,Patrick Stewart,Ian McKellen,
+production companies;Twentieth Century Fox Film Corporation
+year;2000
+rating;7.4
+votes;435141
+title;Spider-Man
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzk3MTE5MDU5NV5BMl5BanBnXkFtZTYwMjY3NTY3._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Sam Raimi
+genres;Action,Adventure,
+countries;USA,
+languages;English,
+runtime;121
+cast;Tobey Maguire,Willem Dafoe,Kirsten Dunst,
+production companies;Columbia Pictures Corporation
+year;2002
+rating;7.3
+votes;528253
+title;21 Jump Street
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc3NzQ3OTg3NF5BMl5BanBnXkFtZTcwMjk5OTcxNw@@._V1._SX93_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Phil Lord
+genres;Action,Comedy,Crime,
+countries;USA,
+languages;English,
+runtime;109
+cast;Jonah Hill,Channing Tatum,Brie Larson,
+production companies;Columbia Pictures
+year;2012
+rating;7.2
+votes;396093
+title;Wild Things
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg5MzM5NTAwMl5BMl5BanBnXkFtZTYwNDA0NzQ5._V1._SX99_SY140_.jpg
+aspect ratio;2.35 : 1
+director;John McNaughton
+genres;Crime,Drama,Mystery,Thriller,
+countries;USA,
+languages;English,
+runtime;108
+cast;Kevin Bacon,Matt Dillon,Neve Campbell,
+production companies;Mandalay Entertainment
+year;1998
+rating;6.5
+votes;89185
+title;Boyhood
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Richard Linklater
+genres;Drama,
+countries;USA,
+languages;English,Spanish,
+runtime;165
+cast;Ellar Coltrane,Patricia Arquette,Elijah Smith,
+production companies;IFC Productions
+year;2014
+rating;8.0
+votes;256084
+title;Jumper
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjEwOTkyOTI3M15BMl5BanBnXkFtZTcwNTQxMjU1MQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Doug Liman
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,Canada,
+languages;English,Italian,Japanese,Mandarin,
+runtime;88
+cast;Hayden Christensen,Jamie Bell,Rachel Bilson,
+production companies;Twentieth Century Fox Film Corporation
+year;2008
+rating;6.1
+votes;238140
+title;Project Almanac
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTUxMjQ2NjI4OV5BMl5BanBnXkFtZTgwODc2NjUwNDE@._V1._SX90_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Dean Israelite
+genres;Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;106
+cast;Jonny Weston,Sofia Black-D'Elia,Sam Lerner,
+production companies;Insurge Pictures
+year;2015
+rating;6.4
+votes;53615
+title;Remember the Titans
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTczNTA2MDc0OF5BMl5BanBnXkFtZTYwMTg4MDY2._V1._SX96_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Boaz Yakin
+genres;Biography,Drama,Sport,
+countries;USA,
+languages;English,
+runtime;113
+cast;Denzel Washington,Will Patton,Wood Harris,
+production companies;Jerry Bruckheimer Films
+year;2000
+rating;7.8
+votes;157211
+title;Hairspray
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTIyMTMzNzIyNV5BMl5BanBnXkFtZTcwMjM1NDk0MQ@@._V1._SX96_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Adam Shankman
+genres;Comedy,Musical,Romance,
+countries;USA,UK,
+languages;English,
+runtime;117
+cast;John Travolta,Michelle Pfeiffer,Christopher Walken,
+production companies;New Line Cinema
+year;2007
+rating;6.7
+votes;96478
+title;17 Again
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA2NTI1Mzg3N15BMl5BanBnXkFtZTcwMjYwNjAzMg@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Burr Steers
+genres;Comedy,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;102
+cast;Zac Efron,Leslie Mann,Thomas Lennon,
+production companies;New Line Cinema
+year;2009
+rating;6.4
+votes;142913
+title;The Place Beyond the Pines
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjc1OTEwNjU4N15BMl5BanBnXkFtZTcwNzUzNDIwOQ@@._V1._SX91_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Derek Cianfrance
+genres;Crime,Drama,Thriller,
+countries;USA,
+languages;English,Spanish,
+runtime;140
+cast;Ryan Gosling,Craig Van Hook,Eva Mendes,
+production companies;Sidney Kimmel Entertainment
+year;2012
+rating;7.3
+votes;181966
+title;Avengers: Age of Ultron
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Joss Whedon
+genres;Action,Adventure,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;141
+cast;Robert Downey Jr.,Chris Hemsworth,Mark Ruffalo,
+production companies;Marvel Studios
+year;2015
+rating;7.5
+votes;418319
+title;Star Wars: Episode VII - The Force Awakens
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1._SX95_SY140_.jpg
+aspect ratio;1.43 : 1
+director;J.J. Abrams
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;135
+cast;Harrison Ford,Mark Hamill,Carrie Fisher,
+production companies;Lucasfilm
+year;2015
+rating;8.3
+votes;489609
+title;Minions
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg2MTMyMzU0M15BMl5BanBnXkFtZTgwOTU3ODk4NTE@._V1._SX94_SY140_.jpg
+aspect ratio;1.66 : 1
+director;Kyle Balda
+genres;Animation,Comedy,Family,
+countries;USA,
+languages;English,Spanish,
+runtime;91
+cast;Sandra Bullock,Jon Hamm,Michael Keaton,
+production companies;Illumination Entertainment
+year;2015
+rating;6.5
+votes;128447
+title;Inside Out
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1._SX94_SY140_.jpg
+aspect ratio;1.78 : 1
+director;Pete Docter
+genres;Animation,Adventure,Comedy,Drama,Family,Fantasy,
+countries;USA,
+languages;English,
+runtime;95
+cast;Amy Poehler,Phyllis Smith,Richard Kind,
+production companies;Walt Disney Pictures
+year;2015
+rating;8.3
+votes;299867
+title;Furious Seven
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1._SX88_SY140_.jpg
+aspect ratio;2.35 : 1
+director;James Wan
+genres;Action,Crime,Thriller,
+countries;USA,
+languages;English,
+runtime;137
+cast;Vin Diesel,Paul Walker,Jason Statham,
+production companies;Universal Pictures
+year;2015
+rating;7.3
+votes;264814
+title;The Martian
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Ridley Scott
+genres;Adventure,Drama,Sci-Fi,
+countries;USA,UK,
+languages;English,Mandarin,
+runtime;144
+cast;Matt Damon,Jessica Chastain,Kristen Wiig,
+production companies;Twentieth Century Fox Film Corporation
+year;2015
+rating;8.1
+votes;402915
+title;The Revenant
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjU4NDExNDM1NF5BMl5BanBnXkFtZTgwMDIyMTgxNzE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Alejandro Gonzalez Inarritu
+genres;Adventure,Drama,Thriller,Western,
+countries;USA,Hong Kong,Taiwan,Canada,
+languages;English,Pawnee,French,
+runtime;156
+cast;Leonardo DiCaprio,Tom Hardy,Domhnall Gleeson,
+production companies;Regency Enterprises
+year;2015
+rating;8.2
+votes;312196
+title;Ant-Man
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Peyton Reed
+genres;Action,Adventure,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;117
+cast;Paul Rudd,Michael Douglas,Evangeline Lilly,
+production companies;Marvel Enterprises
+year;2015
+rating;7.4
+votes;263481
+title;Spectre
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM2Nzg4MzkwOF5BMl5BanBnXkFtZTgwNzA0OTE3NjE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Sam Mendes
+genres;Action,Adventure,Thriller,
+countries;UK,USA,
+languages;English,French,German,Italian,Spanish,
+runtime;148
+cast;Daniel Craig,Christoph Waltz,Lea Seydoux,
+production companies;B24
+year;2015
+rating;6.9
+votes;247138
+title;The Lego Movie
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Phil Lord
+genres;Animation,Action,Adventure,Comedy,Family,Fantasy,
+countries;Australia,USA,Denmark,
+languages;English,
+runtime;100
+cast;Will Arnett,Elizabeth Banks,Craig Berry,
+production companies;Warner Bros.
+year;2014
+rating;7.8
+votes;238717
+title;Transformers: Age of Extinction
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjEwNTg1MTA5Nl5BMl5BanBnXkFtZTgwOTg2OTM4MTE@._V1._SX90_SY140_.jpg
+aspect ratio;1.90 : 1
+director;Michael Bay
+genres;Action,Adventure,Sci-Fi,
+countries;USA,China,
+languages;English,
+runtime;165
+cast;Mark Wahlberg,Stanley Tucci,Kelsey Grammer,
+production companies;Paramount Pictures
+year;2014
+rating;5.7
+votes;234415
+title;Guardians of the Galaxy
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1._SX94_SY140_.jpg
+aspect ratio;1.90 : 1
+director;James Gunn
+genres;Action,Adventure,Sci-Fi,
+countries;USA,UK,
+languages;English,
+runtime;121
+cast;Chris Pratt,Zoe Saldana,Dave Bautista,
+production companies;Marvel Studios
+year;2014
+rating;8.1
+votes;637992
+title;Interstellar
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1._SX90_SY140_.jpg
+aspect ratio;1.43 : 1
+director;Christopher Nolan
+genres;Adventure,Drama,Sci-Fi,
+countries;USA,UK,
+languages;English,
+runtime;169
+cast;Ellen Burstyn,Matthew McConaughey,Mackenzie Foy,
+production companies;Paramount Pictures
+year;2014
+rating;8.6
+votes;874748
+title;The Hunger Games
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Gary Ross
+genres;Adventure,Drama,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;142
+cast;Stanley Tucci,Wes Bentley,Jennifer Lawrence,
+production companies;Lionsgate
+year;2012
+rating;7.3
+votes;685647
+title;The Hobbit: The Battle of the Five Armies
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BODAzMDgxMDc1MF5BMl5BanBnXkFtZTgwMTI0OTAzMjE@._V1._SX94_SY140_.jpg
+aspect ratio;2.00 : 1
+director;Peter Jackson
+genres;Adventure,Fantasy,
+countries;New Zealand,USA,
+languages;English,
+runtime;144
+cast;Ian McKellen,Martin Freeman,Richard Armitage,
+production companies;New Line Cinema
+year;2014
+rating;7.5
+votes;337637
+title;Maleficent
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ1NDk3NTk0MV5BMl5BanBnXkFtZTgwMTk3MDcxMzE@._V1._SX99_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Robert Stromberg
+genres;Action,Adventure,Family,Fantasy,Romance,
+countries;USA,UK,
+languages;English,
+runtime;97
+cast;Angelina Jolie,Elle Fanning,Sharlto Copley,
+production companies;Roth Films
+year;2014
+rating;7.0
+votes;243538
+title;Divergent
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYxMzYwODE4OV5BMl5BanBnXkFtZTgwNDE5MzE2MDE@._V1._SX90_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Neil Burger
+genres;Adventure,Mystery,Sci-Fi,
+countries;USA,
+languages;English,Spanish,
+runtime;139
+cast;Shailene Woodley,Theo James,Ashley Judd,
+production companies;Summit Entertainment
+year;2014
+rating;6.8
+votes;327682
+title;Edge of Tomorrow
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Doug Liman
+genres;Action,Adventure,Sci-Fi,
+countries;USA,Canada,
+languages;English,
+runtime;113
+cast;Tom Cruise,Emily Blunt,Brendan Gleeson,
+production companies;Warner Bros.
+year;2014
+rating;7.9
+votes;411830
+title;How to Train Your Dragon 2
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMzMwMTAwODczN15BMl5BanBnXkFtZTgwMDk2NDA4MTE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Dean DeBlois
+genres;Animation,Action,Adventure,Comedy,Family,Fantasy,
+countries;USA,
+languages;English,
+runtime;102
+cast;Jay Baruchel,Cate Blanchett,Gerard Butler,
+production companies;DreamWorks Animation
+year;2014
+rating;7.9
+votes;211801
+title;The Imitation Game
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNDkwNTEyMzkzNl5BMl5BanBnXkFtZTgwNTAwNzk3MjE@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Morten Tyldum
+genres;Biography,Drama,Thriller,War,
+countries;UK,USA,
+languages;English,German,
+runtime;114
+cast;Benedict Cumberbatch,Keira Knightley,Matthew Goode,
+production companies;Black Bear Pictures
+year;2014
+rating;8.1
+votes;433748
+title;The Maze Runner
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Wes Ball
+genres;Action,Mystery,Sci-Fi,Thriller,
+countries;USA,Canada,UK,
+languages;English,
+runtime;113
+cast;Dylan O'Brien,Aml Ameen,Ki Hong Lee,
+production companies;Twentieth Century Fox Film Corporation
+year;2014
+rating;6.8
+votes;296582
+title;Frozen
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1._SX94_SY140_.jpg
+aspect ratio;2.24 : 1
+director;Chris Buck
+genres;Animation,Adventure,Comedy,Family,Fantasy,Musical,
+countries;USA,
+languages;English,Icelandic,
+runtime;102
+cast;Kristen Bell,Idina Menzel,Jonathan Groff,
+production companies;Walt Disney Animation Studios
+year;2013
+rating;7.6
+votes;405313
+title;Thor: The Dark World
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1._SX98_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Alan Taylor
+genres;Action,Adventure,Fantasy,
+countries;USA,
+languages;English,
+runtime;112
+cast;Chris Hemsworth,Natalie Portman,Tom Hiddleston,
+production companies;Marvel Studios
+year;2013
+rating;7.1
+votes;394100
+title;The Wolf of Wall Street
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Martin Scorsese
+genres;Biography,Comedy,Crime,Drama,
+countries;USA,
+languages;English,French,
+runtime;180
+cast;Leonardo DiCaprio,Jonah Hill,Margot Robbie,
+production companies;Paramount Pictures
+year;2013
+rating;8.2
+votes;740811
+title;Man of Steel
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjI5OTYzNjI0Ml5BMl5BanBnXkFtZTcwMzM1NDA1OQ@@._V1._SX96_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Zack Snyder
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,Canada,UK,
+languages;English,
+runtime;143
+cast;Henry Cavill,Amy Adams,Michael Shannon,
+production companies;Warner Bros.
+year;2013
+rating;7.2
+votes;524761
+title;Iron Man Three
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIzMzAzMjQyM15BMl5BanBnXkFtZTcwNzM2NjcyOQ@@._V1._SY317._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Shane Black
+genres;Action,Adventure,Sci-Fi,
+countries;USA,China,
+languages;English,
+runtime;130
+cast;Robert Downey Jr.,Gwyneth Paltrow,Don Cheadle,
+production companies;Marvel Studios
+year;2013
+rating;7.3
+votes;534595
+title;The Hobbit: The Desolation of Smaug
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1._SX95_SY140_.jpg
+aspect ratio;2.00 : 1
+director;Peter Jackson
+genres;Adventure,Fantasy,
+countries;USA,New Zealand,
+languages;English,
+runtime;161
+cast;Ian McKellen,Martin Freeman,Richard Armitage,
+production companies;Metro-Goldwyn-Mayer
+year;2013
+rating;7.9
+votes;467528
+title;The Hunger Games: Catching Fire
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1._SX94_SY140_.jpg
+aspect ratio;1.44 : 1
+director;Francis Lawrence
+genres;Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;146
+cast;Jennifer Lawrence,Liam Hemsworth,Jack Quaid,
+production companies;Color Force
+year;2013
+rating;7.6
+votes;484358
+title;American Hustle
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David O. Russell
+genres;Crime,Drama,
+countries;USA,
+languages;English,Arabic,
+runtime;138
+cast;Christian Bale,Bradley Cooper,Amy Adams,
+production companies;Columbia Pictures
+year;2013
+rating;7.3
+votes;349616
+title;The World's End
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNzA1MTk1MzY0OV5BMl5BanBnXkFtZTgwNjkzNTUwMDE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Edgar Wright
+genres;Action,Comedy,Sci-Fi,
+countries;UK,USA,Japan,
+languages;English,
+runtime;109
+cast;Thomas Law,Zachary Bailess,Jasper Levine,
+production companies;Universal Pictures
+year;2013
+rating;7.0
+votes;178051
+title;Gravity
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Alfonso Cuaron
+genres;Sci-Fi,Thriller,
+countries;UK,USA,
+languages;English,Greenlandic,
+runtime;91
+cast;Sandra Bullock,George Clooney,Ed Harris,
+production companies;Warner Bros.
+year;2013
+rating;7.8
+votes;564820
+title;Despicable Me 2
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Pierre Coffin
+genres;Animation,Comedy,Family,
+countries;USA,
+languages;English,Ukrainian,
+runtime;98
+cast;Steve Carell,Kristen Wiig,Benjamin Bratt,
+production companies;Universal Pictures
+year;2013
+rating;7.5
+votes;276722
+title;Pulp Fiction
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Quentin Tarantino
+genres;Crime,Drama,
+countries;USA,
+languages;English,Spanish,French,
+runtime;154
+cast;Tim Roth,Amanda Plummer,Laura Lovelace,
+production companies;Miramax
+year;1994
+rating;8.9
+votes;1282702
+title;Schindler's List
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMzMwMTM4MDU2N15BMl5BanBnXkFtZTgwMzQ0MjMxMDE@._V1._SX91_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Steven Spielberg
+genres;Biography,Drama,History,
+countries;USA,
+languages;English,Hebrew,German,Polish,
+runtime;195
+cast;Liam Neeson,Ben Kingsley,Ralph Fiennes,
+production companies;Universal Pictures
+year;1993
+rating;8.9
+votes;836766
+title;The Dark Knight
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1._SX95_SY140_.jpg
+aspect ratio;1.44 : 1
+director;Christopher Nolan
+genres;Action,Crime,Drama,
+countries;USA,UK,
+languages;English,Mandarin,
+runtime;152
+cast;Christian Bale,Heath Ledger,Aaron Eckhart,
+production companies;Warner Bros.
+year;2008
+rating;9.0
+votes;1620495
+title;Star Wars: Episode V - The Empire Strikes Back
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE2MzQwMTgxN15BMl5BanBnXkFtZTcwMDQzNjk2OQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.20 : 1
+director;Irvin Kershner
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;124
+cast;Mark Hamill,Harrison Ford,Carrie Fisher,
+production companies;Lucasfilm
+year;1980
+rating;8.8
+votes;806938
+title;The Lord of the Rings: The Return of the King
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Peter Jackson
+genres;Adventure,Drama,Fantasy,
+countries;USA,New Zealand,
+languages;English,Quenya,Old English,Sindarin,
+runtime;201
+cast;Noel Appleby,Ali Astin,Sean Astin,
+production companies;New Line Cinema
+year;2003
+rating;8.9
+votes;1177967
+title;Star Wars
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BOTIyMDY2NGQtOGJjNi00OTk4LWFhMDgtYmE3M2NiYzM0YTVmXkEyXkFqcGdeQXVyNTU1NTcwOTk@._V1._SX92_SY140_.jpg
+aspect ratio;2.20 : 1
+director;George Lucas
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;121
+cast;Mark Hamill,Harrison Ford,Carrie Fisher,
+production companies;Lucasfilm
+year;1977
+rating;8.7
+votes;880612
+title;Fight Club
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Fincher
+genres;Drama,
+countries;USA,Germany,
+languages;English,
+runtime;139
+cast;Edward Norton,Brad Pitt,Meat Loaf,
+production companies;Fox 2000 Pictures
+year;1999
+rating;8.9
+votes;1301476
+title;The Lord of the Rings: The Fellowship of the Ring
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1._SX96_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Peter Jackson
+genres;Adventure,Drama,Fantasy,
+countries;New Zealand,USA,
+languages;English,Sindarin,
+runtime;178
+cast;Alan Howard,Noel Appleby,Sean Astin,
+production companies;New Line Cinema
+year;2001
+rating;8.8
+votes;1201570
+title;The Matrix
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Lana Wachowski
+genres;Action,Sci-Fi,
+countries;USA,Australia,
+languages;English,
+runtime;136
+cast;Keanu Reeves,Laurence Fishburne,Carrie-Anne Moss,
+production companies;Warner Bros.
+year;1999
+rating;8.7
+votes;1178798
+title;Se7en
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQwNTU3MTE4NF5BMl5BanBnXkFtZTcwOTgxNDM2Mg@@._V1._SX91_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Fincher
+genres;Crime,Drama,Mystery,Thriller,
+countries;USA,
+languages;English,
+runtime;127
+cast;Morgan Freeman,Andrew Kevin Walker,Daniel Zacapa,
+production companies;Cecchi Gori Pictures
+year;1995
+rating;8.6
+votes;989036
+title;Memento
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc4MjUxNDAwN15BMl5BanBnXkFtZTcwMDMwNDg3OA@@._V1._SX100_SY133_.jpg
+aspect ratio;2.35 : 1
+director;Christopher Nolan
+genres;Mystery,Thriller,
+countries;USA,
+languages;English,
+runtime;113
+cast;Guy Pearce,Carrie-Anne Moss,Joe Pantoliano,
+production companies;Newmarket Capital Group
+year;2000
+rating;8.5
+votes;820305
+title;It's a Wonderful Life
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1._SX94_SY140_.jpg
+aspect ratio;1.37 : 1
+director;Frank Capra
+genres;Drama,Family,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;130
+cast;James Stewart,Donna Reed,Lionel Barrymore,
+production companies;Liberty Films (II)
+year;1946
+rating;8.6
+votes;267386
+title;The Lord of the Rings: The Two Towers
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1._SX96_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Peter Jackson
+genres;Action,Adventure,Drama,Fantasy,
+countries;USA,New Zealand,
+languages;English,Sindarin,Old English,
+runtime;179
+cast;Bruce Allpress,Sean Astin,John Bach,
+production companies;New Line Cinema
+year;2002
+rating;8.7
+votes;1064866
+title;Forrest Gump
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI1Nzk1MzQwMV5BMl5BanBnXkFtZTYwODkxOTA5._V1._SX98_SY140_.jpg
+aspect ratio;2.36 : 1
+director;Robert Zemeckis
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;142
+cast;Tom Hanks,Rebecca Williams,Sally Field,
+production companies;Paramount Pictures
+year;1994
+rating;8.8
+votes;1204081
+title;Apocalypse Now
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1._SX100_SY133_.jpg
+aspect ratio;2.00 : 1
+director;Francis Ford Coppola
+genres;Drama,War,
+countries;USA,
+languages;English,French,Vietnamese,
+runtime;153
+cast;Marlon Brando,Martin Sheen,Robert Duvall,
+production companies;Zoetrope Studios
+year;1979
+rating;8.5
+votes;438196
+title;American Beauty
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM4NTI5NzYyNV5BMl5BanBnXkFtZTgwNTkxNTYxMTE@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Sam Mendes
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;122
+cast;Kevin Spacey,Annette Bening,Thora Birch,
+production companies;DreamWorks SKG
+year;1999
+rating;8.4
+votes;798559
+title;Alien
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU1ODQ4NjQyOV5BMl5BanBnXkFtZTgwOTQ3NDU2MTE@._V1._SX93_SY140_.jpg
+aspect ratio;2.20 : 1
+director;Ridley Scott
+genres;Horror,Sci-Fi,
+countries;USA,UK,
+languages;English,Spanish,
+runtime;117
+cast;Tom Skerritt,Sigourney Weaver,Veronica Cartwright,
+production companies;Brandywine Productions
+year;1979
+rating;8.5
+votes;545293
+title;Terminator 2: Judgment Day
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI4MDAwMDY3N15BMl5BanBnXkFtZTcwODIwMzMzMQ@@._V1._CR46,1,342,473._SX100_SY138_.jpg
+aspect ratio;1.33 : 1
+director;James Cameron
+genres;Action,Sci-Fi,
+countries;USA,France,
+languages;English,Spanish,
+runtime;137
+cast;Arnold Schwarzenegger,Linda Hamilton,Edward Furlong,
+production companies;Carolco Pictures
+year;1991
+rating;8.5
+votes;721627
+title;Saving Private Ryan
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNjczODkxNTAxN15BMl5BanBnXkFtZTcwMTcwNjUxMw@@._V1._SX100_SY136_.jpg
+aspect ratio;1.85 : 1
+director;Steven Spielberg
+genres;Action,Drama,War,
+countries;USA,
+languages;English,French,German,Czech,
+runtime;169
+cast;Tom Hanks,Tom Sizemore,Edward Burns,
+production companies;DreamWorks SKG
+year;1998
+rating;8.6
+votes;851147
+title;Aliens
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYzNzU5MzQ4OV5BMl5BanBnXkFtZTcwMDcxNDg3OA@@._V1._SX100_SY133_.jpg
+aspect ratio;1.85 : 1
+director;James Cameron
+genres;Action,Horror,Sci-Fi,
+countries;UK,USA,
+languages;English,
+runtime;137
+cast;Sigourney Weaver,Carrie Henn,Michael Biehn,
+production companies;Twentieth Century Fox Film Corporation
+year;1986
+rating;8.4
+votes;474070
+title;Eternal Sunshine of the Spotless Mind
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Michel Gondry
+genres;Drama,Romance,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;108
+cast;Jim Carrey,Kate Winslet,Gerry Robert Byrne,
+production companies;Focus Features
+year;2004
+rating;8.4
+votes;645043
+title;Reservoir Dogs
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQxMTAwMDQ3Nl5BMl5BanBnXkFtZTcwODMwNTgzMQ@@._V1._SX99_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Quentin Tarantino
+genres;Crime,Thriller,
+countries;USA,
+languages;English,
+runtime;99
+cast;Harvey Keitel,Tim Roth,Michael Madsen,
+production companies;Live Entertainment
+year;1992
+rating;8.4
+votes;642309
+title;Inglourious Basterds
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIzMDI4MTUzOV5BMl5BanBnXkFtZTcwNDY3NjA3Mg@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Quentin Tarantino
+genres;Adventure,Drama,War,
+countries;USA,Germany,
+languages;English,German,French,Italian,
+runtime;153
+cast;Brad Pitt,Melanie Laurent,Christoph Waltz,
+production companies;Universal Pictures
+year;2009
+rating;8.3
+votes;852082
+title;Up
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1._SX93_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Pete Docter
+genres;Animation,Adventure,Comedy,Family,
+countries;USA,
+languages;English,
+runtime;96
+cast;Edward Asner,Christopher Plummer,Jordan Nagai,
+production companies;Walt Disney Pictures
+year;2009
+rating;8.3
+votes;637616
+title;Gladiator
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Ridley Scott
+genres;Action,Drama,
+countries;USA,UK,
+languages;English,
+runtime;155
+cast;Russell Crowe,Joaquin Phoenix,Connie Nielsen,
+production companies;DreamWorks SKG
+year;2000
+rating;8.5
+votes;950966
+title;Sin City
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI2NjUyMDUyMV5BMl5BanBnXkFtZTcwMzU0OTkyMQ@@._V1._SX98_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Frank Miller
+genres;Crime,Thriller,
+countries;USA,
+languages;English,
+runtime;124
+cast;Jessica Alba,Devon Aoki,Alexis Bledel,
+production companies;Dimension Films
+year;2005
+rating;8.1
+votes;641609
+title;Star Wars: Episode VI - Return of the Jedi
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0MzI1NjYwOF5BMl5BanBnXkFtZTgwODU3NDU2MTE@._V1._CR93,97,1209,1861._SX91_SY140_.jpg
+aspect ratio;2.20 : 1
+director;Richard Marquand
+genres;Action,Adventure,Fantasy,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;131
+cast;Mark Hamill,Harrison Ford,Carrie Fisher,
+production companies;Lucasfilm
+year;1983
+rating;8.4
+votes;654986
+title;Batman Begins
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Christopher Nolan
+genres;Action,Adventure,
+countries;USA,UK,
+languages;English,Urdu,Mandarin,
+runtime;140
+cast;Christian Bale,Michael Caine,Liam Neeson,
+production companies;Warner Bros.
+year;2005
+rating;8.3
+votes;945481
+title;Slumdog Millionaire
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Danny Boyle
+genres;Drama,Romance,
+countries;UK,USA,
+languages;English,Hindi,French,
+runtime;120
+cast;Dev Patel,Saurabh Shukla,Anil Kapoor,
+production companies;Warner Bros.
+year;2008
+rating;8.0
+votes;626682
+title;Blade Runner
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTA4MDQxNTk2NDheQTJeQWpwZ15BbWU3MDE2NjIyODk@._V1._SX93_SY140_.jpg
+aspect ratio;2.20 : 1
+director;Ridley Scott
+genres;Sci-Fi,Thriller,
+countries;USA,Hong Kong,UK,
+languages;English,German,Cantonese,Japanese,Hungarian,
+runtime;117
+cast;Harrison Ford,Rutger Hauer,Sean Young,
+production companies;Ladd Company, The
+year;1982
+rating;8.2
+votes;448938
+title;No Country for Old Men
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Ethan Coen
+genres;Crime,Drama,Thriller,
+countries;USA,
+languages;English,Spanish,
+runtime;122
+cast;Tommy Lee Jones,Javier Bardem,Josh Brolin,
+production companies;Paramount Vantage
+year;2007
+rating;8.1
+votes;592892
+title;The Sixth Sense
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;M. Night Shyamalan
+genres;Drama,Mystery,Thriller,
+countries;USA,
+languages;English,Latin,Spanish,
+runtime;107
+cast;Bruce Willis,Haley Joel Osment,Toni Collette,
+production companies;Hollywood Pictures
+year;1999
+rating;8.1
+votes;684739
+title;Donnie Darko
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTczMzE4Nzk3N15BMl5BanBnXkFtZTcwNDg5Mjc4NA@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Richard Kelly
+genres;Drama,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;113
+cast;Jake Gyllenhaal,Holmes Osborne,Maggie Gyllenhaal,
+production companies;Pandora Cinema
+year;2001
+rating;8.1
+votes;564177
+title;The Social Network
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1._SX89_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Fincher
+genres;Biography,Drama,
+countries;USA,
+languages;English,French,
+runtime;120
+cast;Jesse Eisenberg,Rooney Mara,Bryan Barter,
+production companies;Columbia Pictures
+year;2010
+rating;7.7
+votes;464881
+title;Kill Bill: Vol. 1
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1._SX90_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Quentin Tarantino
+genres;Action,
+countries;USA,
+languages;English,Japanese,French,
+runtime;111
+cast;Uma Thurman,Lucy Liu,Vivica A. Fox,
+production companies;Miramax
+year;2003
+rating;8.1
+votes;712616
+title;Million Dollar Baby
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Clint Eastwood
+genres;Drama,Sport,
+countries;USA,
+languages;English,Irish Gaelic,
+runtime;132
+cast;Clint Eastwood,Hilary Swank,Morgan Freeman,
+production companies;Warner Bros.
+year;2004
+rating;8.1
+votes;467810
+title;How to Train Your Dragon
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Dean DeBlois
+genres;Animation,Adventure,Family,Fantasy,
+countries;USA,
+languages;English,
+runtime;98
+cast;Jay Baruchel,Gerard Butler,Craig Ferguson,
+production companies;DreamWorks Animation
+year;2010
+rating;8.2
+votes;466486
+title;V for Vendetta
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;James McTeigue
+genres;Action,Drama,Thriller,
+countries;USA,UK,Germany,
+languages;English,
+runtime;132
+cast;Natalie Portman,Hugo Weaving,Stephen Rea,
+production companies;Warner Bros.
+year;2005
+rating;8.2
+votes;767171
+title;The Incredibles
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Brad Bird
+genres;Animation,Action,Adventure,Family,
+countries;USA,
+languages;English,French,
+runtime;115
+cast;Craig T. Nelson,Holly Hunter,Samuel L. Jackson,
+production companies;Walt Disney Pictures
+year;2004
+rating;8.0
+votes;462632
+title;A Streetcar Named Desire
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTk3OTQ4MzY3M15BMl5BanBnXkFtZTcwODM0ODcyMg@@._V1._SX92_SY140_.jpg
+aspect ratio;1.37 : 1
+director;Elia Kazan
+genres;Drama,
+countries;USA,
+languages;English,Spanish,
+runtime;122
+cast;Vivien Leigh,Marlon Brando,Kim Hunter,
+production companies;Charles K. Feldman Group
+year;1951
+rating;8.1
+votes;76791
+title;The Exorcist
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTgxMjIyNTc5Nl5BMl5BanBnXkFtZTgwMjgwNDgwNzE@._V1._SX95_SY140_.jpg
+aspect ratio;1.37 : 1
+director;William Friedkin
+genres;Horror,
+countries;USA,
+languages;English,Latin,Greek,French,German,Arabic,
+runtime;122
+cast;Ellen Burstyn,Max von Sydow,Lee J. Cobb,
+production companies;Warner Bros.
+year;1973
+rating;8.0
+votes;277623
+title;Kill Bill: Vol. 2
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTIwNzQ3MDIxMV5BMl5BanBnXkFtZTcwMDIxMzUyMQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Quentin Tarantino
+genres;Action,Crime,Thriller,
+countries;USA,
+languages;English,Cantonese,Mandarin,Spanish,
+runtime;137
+cast;Vivica A. Fox,Ambrosia Kelley,Michael Parks,
+production companies;Miramax
+year;2004
+rating;8.0
+votes;498605
+title;Kick-Ass
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMzNzEzMDYxM15BMl5BanBnXkFtZTcwMTc0NTMxMw@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Matthew Vaughn
+genres;Action,Comedy,
+countries;UK,USA,
+languages;English,
+runtime;117
+cast;Aaron Taylor-Johnson,Garrett M. Brown,Evan Peters,
+production companies;Marv Films
+year;2010
+rating;7.7
+votes;424797
+title;Pirates of the Caribbean: The Curse of the Black Pearl
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAyNDM4MTc2N15BMl5BanBnXkFtZTYwNDk0Mjc3._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Gore Verbinski
+genres;Action,Adventure,Fantasy,
+countries;USA,
+languages;English,
+runtime;143
+cast;Johnny Depp,Geoffrey Rush,Orlando Bloom,
+production companies;Walt Disney Pictures
+year;2003
+rating;8.1
+votes;785039
+title;The Room
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg4MTU1MzgwOV5BMl5BanBnXkFtZTcwNjM1MTAwMQ@@._V1._SX100_SY130_.jpg
+aspect ratio;1.85 : 1
+director;Tommy Wiseau
+genres;Drama,
+countries;USA,
+languages;English,
+runtime;99
+cast;Tommy Wiseau,Juliette Danielle,Greg Sestero,
+production companies;Wiseau-Films
+year;2003
+rating;3.5
+votes;28900
+title;The Twilight Saga: Eclipse
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Slade
+genres;Adventure,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;124
+cast;Xavier Samuel,Kristen Stewart,Robert Pattinson,
+production companies;Summit Entertainment
+year;2010
+rating;4.9
+votes;180693
+title;The Twilight Saga: Breaking Dawn - Part 2
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Bill Condon
+genres;Adventure,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,
+runtime;115
+cast;Kristen Stewart,Robert Pattinson,Taylor Lautner,
+production companies;Summit Entertainment
+year;2012
+rating;5.5
+votes;181103
+title;The Twilight Saga: New Moon
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI3MjE3NDIxNF5BMl5BanBnXkFtZTcwODM3NTY5Mg@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Chris Weitz
+genres;Adventure,Drama,Fantasy,Romance,
+countries;USA,
+languages;English,Italian,
+runtime;130
+cast;Kristen Stewart,Christina Jastrzembska,Robert Pattinson,
+production companies;Temple Hill Entertainment
+year;2009
+rating;4.6
+votes;216678
+title;A Good Day to Die Hard
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcwNzgyNzUzOV5BMl5BanBnXkFtZTcwMzAwOTA5OA@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;John Moore
+genres;Action,Crime,Thriller,
+countries;USA,
+languages;English,Russian,Hindi,
+runtime;98
+cast;Bruce Willis,Jai Courtney,Sebastian Koch,
+production companies;Twentieth Century Fox Film Corporation
+year;2013
+rating;5.3
+votes;162054
+title;Saw
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjAyNTcxNzYwMV5BMl5BanBnXkFtZTgwMzQzNzM5MjE@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;James Wan
+genres;Horror,Mystery,
+countries;USA,Australia,
+languages;English,
+runtime;103
+cast;Leigh Whannell,Cary Elwes,Danny Glover,
+production companies;Evolution Entertainment
+year;2004
+rating;7.7
+votes;290492
+title;Saw II
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjEzNTAyMDk5NF5BMl5BanBnXkFtZTcwOTA3MTEzMQ@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Darren Lynn Bousman
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;93
+cast;Tobin Bell,Shawnee Smith,Donnie Wahlberg,
+production companies;Twisted Pictures
+year;2005
+rating;6.6
+votes;184259
+title;Saw III
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTg3MzI5NjYxMl5BMl5BanBnXkFtZTcwOTA0NDkzMQ@@._V1._SX97_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Darren Lynn Bousman
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;108
+cast;Tobin Bell,Shawnee Smith,Angus Macfadyen,
+production companies;Twisted Pictures
+year;2006
+rating;6.2
+votes;138651
+title;Saw IV
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Darren Lynn Bousman
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;93
+cast;Tobin Bell,Costas Mandylor,Scott Patterson,
+production companies;Twisted Pictures
+year;2007
+rating;5.9
+votes;108252
+title;Saw V
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTMwOTI1NjczOV5BMl5BanBnXkFtZTcwNDQ4MTQ5MQ@@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;David Hackl
+genres;Horror,Mystery,
+countries;USA,Canada,
+languages;English,
+runtime;92
+cast;Tobin Bell,Costas Mandylor,Scott Patterson,
+production companies;Twisted Pictures
+year;2008
+rating;5.8
+votes;85999
+title;Saw VI
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY1MzkzNTYyMl5BMl5BanBnXkFtZTcwOTg4MjE5Ng@@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Kevin Greutert
+genres;Horror,Mystery,
+countries;Canada,USA,UK,Australia,
+languages;English,
+runtime;90
+cast;Tobin Bell,Costas Mandylor,Mark Rolston,
+production companies;Twisted Pictures
+year;2009
+rating;6.0
+votes;73840
+title;Disaster Movie
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTIzMDQyNDgwNl5BMl5BanBnXkFtZTcwMDA0MTc3MQ@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Jason Friedberg
+genres;Comedy,
+countries;USA,
+languages;English,
+runtime;87
+cast;Matt Lanter,Vanessa Lachey,Gary 'G. Thang' Johnson,
+production companies;Lionsgate
+year;2008
+rating;1.9
+votes;73776
+title;Epic Movie
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTA3NDM5ODU3NzleQTJeQWpwZ15BbWU3MDgyMjgyNDE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Jason Friedberg
+genres;Adventure,Comedy,
+countries;USA,
+languages;English,
+runtime;86
+cast;Kal Penn,Adam Campbell,Jennifer Coolidge,
+production companies;Regency Enterprises
+year;2007
+rating;2.3
+votes;88338
+title;Casablanca
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjQwNDYyNTk2N15BMl5BanBnXkFtZTgwMjQ0OTMyMjE@._V1._SX94_SY140_.jpg
+aspect ratio;1.37 : 1
+director;Michael Curtiz
+genres;Drama,Romance,War,
+countries;USA,
+languages;English,French,German,Italian,
+runtime;102
+cast;Humphrey Bogart,Ingrid Bergman,Paul Henreid,
+production companies;Warner Bros.
+year;1942
+rating;8.6
+votes;377071
+title;Cinderella
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjMxODYyODEzN15BMl5BanBnXkFtZTgwMDk4OTU0MzE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Kenneth Branagh
+genres;Drama,Family,Fantasy,Romance,
+countries;USA,UK,
+languages;English,
+runtime;105
+cast;Cate Blanchett,Lily James,Richard Madden,
+production companies;Allison Shearmur Productions
+year;2015
+rating;7.0
+votes;96492
+title;Planet of the Apes
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY5Nzg4NzAzMF5BMl5BanBnXkFtZTcwMjc5MzcyMQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Tim Burton
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;119
+cast;Mark Wahlberg,Tim Roth,Helena Bonham Carter,
+production companies;Twentieth Century Fox Film Corporation
+year;2001
+rating;5.7
+votes;175049
+title;Saturday Night Fever
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU0NDk4MzA0NV5BMl5BanBnXkFtZTcwOTYwODIyMQ@@._V1._SX100_SY134_.jpg
+aspect ratio;1.85 : 1
+director;John Badham
+genres;Drama,Music,
+countries;USA,
+languages;English,Italian,
+runtime;118
+cast;John Travolta,Karen Lynn Gorney,Barry Miller,
+production companies;Robert Stigwood Organization
+year;1977
+rating;6.8
+votes;52138
+title;Harry Potter and the Sorcerer's Stone
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTYwNTM5NDkzNV5BMl5BanBnXkFtZTYwODQ4MzY5._V1._SX100_SY138_.jpg
+aspect ratio;2.35 : 1
+director;Chris Columbus
+genres;Adventure,Family,Fantasy,
+countries;UK,USA,
+languages;English,
+runtime;152
+cast;Richard Harris,Maggie Smith,Robbie Coltrane,
+production companies;Warner Bros.
+year;2001
+rating;7.5
+votes;430792
+title;Harry Potter and the Chamber of Secrets
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Chris Columbus
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,Germany,
+languages;English,
+runtime;161
+cast;Daniel Radcliffe,Rupert Grint,Emma Watson,
+production companies;1492 Pictures
+year;2002
+rating;7.4
+votes;374947
+title;Harry Potter and the Prisoner of Azkaban
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Alfonso Cuaron
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,
+runtime;142
+cast;Daniel Radcliffe,Richard Griffiths,Pam Ferris,
+production companies;Warner Bros.
+year;2004
+rating;7.8
+votes;369460
+title;Harry Potter and the Goblet of Fire
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Mike Newell
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,French,
+runtime;157
+cast;Eric Sykes,Timothy Spall,David Tennant,
+production companies;Warner Bros.
+year;2005
+rating;7.6
+votes;373341
+title;Harry Potter and the Order of the Phoenix
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Yates
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,
+runtime;138
+cast;Daniel Radcliffe,Harry Melling,Jason Boyd,
+production companies;Warner Bros.
+year;2007
+rating;7.5
+votes;343291
+title;Harry Potter and the Half-Blood Prince
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1._SX91_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Yates
+genres;Adventure,Family,Fantasy,Mystery,
+countries;UK,USA,
+languages;English,
+runtime;153
+cast;Daniel Radcliffe,Michael Gambon,Dave Legeno,
+production companies;Warner Bros.
+year;2009
+rating;7.5
+votes;310109
+title;Harry Potter and the Deathly Hallows: Part 2
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY2MTk3MDQ1N15BMl5BanBnXkFtZTcwMzI4NzA2NQ@@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;David Yates
+genres;Adventure,Drama,Fantasy,Mystery,
+countries;USA,UK,
+languages;English,
+runtime;130
+cast;Ralph Fiennes,Michael Gambon,Alan Rickman,
+production companies;Warner Bros.
+year;2011
+rating;8.1
+votes;521716
+title;E.T. the Extra-Terrestrial
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc1NTQ0MTUyNF5BMl5BanBnXkFtZTcwMDYzMDU2Mw@@._V1._SX90_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Steven Spielberg
+genres;Family,Sci-Fi,
+countries;USA,
+languages;English,
+runtime;115
+cast;Dee Wallace,Henry Thomas,Peter Coyote,
+production companies;Universal Pictures
+year;1982
+rating;7.9
+votes;273741
+title;Titanic
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjExNzM0NDM0N15BMl5BanBnXkFtZTcwMzkxOTUwNw@@._V1._SX95_SY140_.jpg
+aspect ratio;1.78 : 1
+director;James Cameron
+genres;Drama,Romance,
+countries;USA,
+languages;English,
+runtime;194
+cast;Leonardo DiCaprio,Kate Winslet,Billy Zane,
+production companies;Twentieth Century Fox Film Corporation
+year;1997
+rating;7.7
+votes;771227
+title;Point Break
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjIxNDkzOTAyNV5BMl5BanBnXkFtZTgwNjEyOTY3NjE@._V1._SX94_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Ericson Core
+genres;Action,Crime,Sport,Thriller,
+countries;USA,Germany,China,
+languages;English,
+runtime;114
+cast;Edgar Ramirez,Luke Bracey,Ray Winstone,
+production companies;Alcon Entertainment
+year;2015
+rating;5.3
+votes;22026
+title;10 Things I Hate About You
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI4MzU5OTc2MF5BMl5BanBnXkFtZTYwNzQxMjc5._V1._SX98_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Gil Junger
+genres;Comedy,Drama,Romance,
+countries;USA,
+languages;English,French,
+runtime;97
+cast;Heath Ledger,Julia Stiles,Joseph Gordon-Levitt,
+production companies;Touchstone Pictures
+year;1999
+rating;7.2
+votes;215241
+title;Jurassic Park
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1._SX93_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Steven Spielberg
+genres;Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,Spanish,
+runtime;127
+cast;Sam Neill,Laura Dern,Jeff Goldblum,
+production companies;Universal Pictures
+year;1993
+rating;8.1
+votes;587646
+title;Jurassic World
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ5MTE0MTk3Nl5BMl5BanBnXkFtZTgwMjczMzk2NTE@._V1._SX88_SY140_.jpg
+aspect ratio;2.00 : 1
+director;Colin Trevorrow
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,
+languages;English,
+runtime;124
+cast;Chris Pratt,Bryce Dallas Howard,Irrfan Khan,
+production companies;Universal Pictures
+year;2015
+rating;7.1
+votes;386561
+title;Cruel Intentions
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjMxNjM5OTQ2M15BMl5BanBnXkFtZTgwNjUxNzYxMTE@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Roger Kumble
+genres;Drama,Romance,
+countries;USA,
+languages;English,Vietnamese,French,
+runtime;97
+cast;Sarah Michelle Gellar,Ryan Phillippe,Reese Witherspoon,
+production companies;Columbia Pictures Corporation
+year;1999
+rating;6.9
+votes;146245
+title;Crouching Tiger Hidden Dragon
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY5MjM4NjIxOF5BMl5BanBnXkFtZTcwNDg5NzU2OQ@@._V1._SX93_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Ang Lee
+genres;Action,Drama,Romance,
+countries;Taiwan,Hong Kong,USA,China,
+languages;Mandarin,
+runtime;120
+cast;Yun-Fat Chow,Michelle Yeoh,Ziyi Zhang,
+production companies;Asia Union Film & Entertainment Ltd.
+year;2000
+rating;7.9
+votes;213754
+title;Downfall
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTM1OTI1MjE2Nl5BMl5BanBnXkFtZTcwMTEwMzc4NA@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Oliver Hirschbiegel
+genres;Biography,Drama,History,War,
+countries;Germany,Austria,Italy,
+languages;German,Russian,Hungarian,
+runtime;156
+cast;Bruno Ganz,Alexandra Maria Lara,Corinna Harfouch,
+production companies;Constantin Film Produktion
+year;2004
+rating;8.3
+votes;241603
+title;Good Bye Lenin!
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTI0MTg4NzI3M15BMl5BanBnXkFtZTcwOTE0MTUyMQ@@._V1._SX97_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Wolfgang Becker
+genres;Drama,Romance,
+countries;Germany,
+languages;German,English,Russian,
+runtime;121
+cast;Daniel Bruhl,Katrin Sa,Chulpan Khamatova,
+production companies;X-Filme Creative Pool
+year;2003
+rating;7.7
+votes;112179
+title;Run Lola Run
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMjA5MDg3MjYyOF5BMl5BanBnXkFtZTgwODk3NjkzMTE@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Tom Tykwer
+genres;Crime,Drama,
+countries;Germany,
+languages;German,English,Japanese,
+runtime;81
+cast;Franka Potente,Moritz Bleibtreu,Herbert Knaup,
+production companies;X-Filme Creative Pool
+year;1998
+rating;7.8
+votes;158948
+title;The Lives of Others
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BNDUzNjYwNDYyNl5BMl5BanBnXkFtZTcwNjU3ODQ0MQ@@._V1._SX93_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Florian Henckel von Donnersmarck
+genres;Drama,Thriller,
+countries;Germany,
+languages;German,
+runtime;137
+cast;Martina Gedeck,Ulrich Muhe,Sebastian Koch,
+production companies;Wiedemann & Berg Filmproduktion
+year;2006
+rating;8.5
+votes;251415
+title;Pan's Labyrinth
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTU3ODg2NjQ5NF5BMl5BanBnXkFtZTcwMDEwODgzMQ@@._V1._SX95_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Guillermo del Toro
+genres;Drama,Fantasy,War,
+countries;Spain,Mexico,USA,
+languages;Spanish,
+runtime;118
+cast;Ivana Baquero,Sergi Lopez,Maribel Verdu,
+production companies;Estudios Picasso
+year;2006
+rating;8.2
+votes;453714
+title;The Orphanage
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc3MjE0NzQzMV5BMl5BanBnXkFtZTYwMzI0ODc4._V1._SX99_SY140_.jpg
+aspect ratio;2.35 : 1
+director;J.A. Bayona
+genres;Drama,Mystery,Thriller,
+countries;Spain,
+languages;Spanish,
+runtime;105
+cast;Belen Rueda,Fernando Cayo,Roger Princep,
+production companies;Esta Vivo! Laboratorio de Nuevos Talentos
+year;2007
+rating;7.5
+votes;117845
+title;Spirited Away
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1._SX99_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Hayao Miyazaki
+genres;Animation,Adventure,Family,Fantasy,
+countries;Japan,
+languages;Japanese,
+runtime;125
+cast;Rumi Hiiragi,Miyu Irino,Mari Natsuki,
+production companies;Tokuma Shoten
+year;2001
+rating;8.6
+votes;400668
+title;Princess Mononoke
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMjgzNTUwODQzN15BMl5BanBnXkFtZTcwMTc4ODE3OQ@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Hayao Miyazaki
+genres;Animation,Adventure,Fantasy,
+countries;Japan,
+languages;Japanese,
+runtime;134
+cast;Billy Crudup,Billy Bob Thornton,Minnie Driver,
+production companies;DENTSU Music And Entertainment
+year;1997
+rating;8.4
+votes;213175
+title;Howl's Moving Castle
+mpaa;PG
+cover url;http://ia.media-imdb.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Hayao Miyazaki
+genres;Animation,Adventure,Family,Fantasy,
+countries;Japan,
+languages;Japanese,
+runtime;119
+cast;Chieko Baisho,Takuya Kimura,Akihiro Miwa,
+production companies;Buena Vista Home Entertainment
+year;2004
+rating;8.2
+votes;205211
+title;Godzilla
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMTQ0ODgzNjg2MV5BMl5BanBnXkFtZTgwNDkxMzc3MDE@._V1._SX95_SY140_.jpg
+aspect ratio;2.35 : 1
+director;Gareth Edwards
+genres;Action,Adventure,Sci-Fi,Thriller,
+countries;USA,Japan,
+languages;English,Japanese,
+runtime;123
+cast;Aaron Taylor-Johnson,CJ Adams,Ken Watanabe,
+production companies;Warner Bros.
+year;2014
+rating;6.5
+votes;294109
+title;The Pianist
+mpaa;R
+cover url;http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1._SX93_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Roman Polanski
+genres;Biography,Drama,War,
+countries;France,Poland,Germany,UK,
+languages;English,German,Russian,
+runtime;150
+cast;Adrien Brody,Emilia Fox,Michal Zebrowski,
+production companies;R.P. Productions
+year;2002
+rating;8.5
+votes;480340
+title;Persepolis
+mpaa;PG-13
+cover url;http://ia.media-imdb.com/images/M/MV5BMzIxMDI0Nzc4NV5BMl5BanBnXkFtZTYwNjU5OTI4._V1._SX94_SY140_.jpg
+aspect ratio;1.85 : 1
+director;Vincent Paronnaud
+genres;Animation,Biography,Drama,War,
+countries;France,USA,
+languages;French,English,Persian,German,
+runtime;96
+cast;Chiara Mastroianni,Danielle Darrieux,Catherine Deneuve,
+production companies;2.4.7. Films
+year;2007
+rating;8.0
+votes;68411
