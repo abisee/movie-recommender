@@ -47,6 +47,7 @@ def import_movies():
 # Convert MPAA strings to numerical values
 # Convert runtimes from lists to floats
 # Convert dictionary features to individual features
+# Take top 3 of all lists
 ##########################################################################
 
 def mpaa_to_num(mpaa_rating):
@@ -74,6 +75,9 @@ def age_bracket_to_num(age_bracket):
 
 def postprocess_movies(title2movie):
   for _, movie in title2movie.iteritems(): # movie is a dict
+    for f,v in movie.iteritems():
+      if type(v)==list:
+        movie[f] = v[:3]
     if 'mpaa' in movie.keys():
       movie['mpaa'] = mpaa_to_num(movie['mpaa'])
     if 'runtime' in movie.keys():
@@ -94,13 +98,6 @@ def postprocess_movies(title2movie):
       ages_votes = sorted([(a,votes[a]) for a in age_brackets], key=lambda (a,v): v)
       age_mode = ages_votes[-1][0] # string of the age bracket with highest votes
       age_feat = age_bracket_to_num(age_mode) # convert to integer 0 to 3
-
-      # print movie['title']
-      # print "gender_feat: ", gender_feat
-      # print "nonus_feat: ", nonus_feat
-      # print "age_feat: ", age_feat
-      # print ""
-
       movie[demographic_features[0]] = gender_feat
       movie[demographic_features[1]] = nonus_feat
       movie[demographic_features[2]] = age_feat
@@ -318,7 +315,7 @@ def manh_dist(mvec1, mvec2):
   """Returns Manhattan distance between mvec1 and mvec2, which are both MovieVectors"""
   return np.linalg.norm(mvec1.vec-mvec2.vec, 1)
 
-def get_dists(query_title, feat2weight, distance_function):
+def get_dists(query_title, feat2weight, distance_function, title2MVec_norm):
   """Calculates the distance from all movies in the database to query_title,
   using the weights given in feat2weight.
   Returns a list of (dist,key) tuples that doesn't include the original movie."""
@@ -383,17 +380,22 @@ def colgroup(feat2weight,feature_order):
   to_return += "</colgroup>"
   return to_return
 
-def feat_to_info(movie,f,dist):
+def feat_to_info(movie, f, dist):
   """How to format the feature information in the table.
   Returns a string."""
-  if f in ['cast','genres','countries','languages']:
-    return comma_list(movie[f])
-  elif f in ['runtime','year','votes']: # integer features
-    return str(movie[f])
-  elif f=='rating': # float feature
-    return "%.1f" % (movie[f])
-  elif f=='distance': # float feature
+  if f == "distance":
     return "%.3f" % (dist)
+  elif f not in movie.keys():
+    return "N/A"
+  elif type(movie[f])==list:
+    return comma_list(movie[f])
+  elif type(movie[f])==int:
+    return str(movie[f])
+  elif type(movie[f])==float:
+    if f=="rating":
+      return "%.1f" % (movie[f])
+    else:
+      return "%.3f" % (movie[f])
   else:
     return movie[f]
 
@@ -414,11 +416,11 @@ def feat_to_header(f):
   else:
     return f
 
-def table_row_print(query_title, dist, feature_order):
+def table_row_print(query_title, dist, feature_order, title2movie):
   """Returns a HTML string giving information about the movie
   as a row of a table. Adds dist (which is a float) to the row."""
-  movie = movies[query_title]
-  data = [feat_to_info(movie,f,dist) for f in feature_order]
+  movie = title2movie[query_title]
+  data = [feat_to_info(movie, f, dist) for f in feature_order]
   return table_row(data)
 
 def get_feature_order(feat2weight):
@@ -445,21 +447,21 @@ def search_titles(query_title, title2MVec):
   return None
 
 
-def get_recommendations(query_title, feat2weight, distance_function):
+def get_recommendations(query_title, feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
   """HTML-prints a table of all movies with given feature weights and distance_function. Returns a HTML string."""
   query_title = search_titles(query_title, title2MVec_norm)
   if query_title is None: return
 
   feature_order = get_feature_order(feat2weight)
-  dists_sorted = get_dists(query_title, feat2weight, distance_function)
+  dists_sorted = get_dists(query_title, feat2weight, distance_function, title2MVec_norm)
 
   html_string = "<table>"
   html_string += colgroup(feat2weight,feature_order)
   headers = [feat_to_header(f) for f in feature_order]
   html_string += table_row(headers, header=True)
-  html_string += table_row_print(query_title, 0, feature_order)
+  html_string += table_row_print(query_title, 0, feature_order, title2movie)
   for (key,dist) in dists_sorted:
-    html_string += table_row_print(key, dist, feature_order)
+    html_string += table_row_print(key, dist, feature_order, title2movie)
   html_string += "</table>"
   return HTML(html_string)
 
@@ -478,7 +480,13 @@ def init():
   title2MVec = create_vectors(title2movie, feat2items)
   print "normalizing..."
   title2MVec_norm = get_normed_vecs(title2MVec)
-  return title2MVec_norm
+  return title2MVec_norm, title2movie
 
-if __name__=="__main__":
-  title2MVec_norm = init() # this is globally visible
+# if __name__=="__main__":
+  # feat2weight = {}
+  # for f in numerical_features + demographic_features + parents_guide_features + category_features:
+  #   feat2weight[f] = 1.0
+
+  # title2movie, title2MVec_norm = init() # this is globally visible
+
+  # print get_recommendations("Titanic", feat2weight)

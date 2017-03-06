@@ -27,7 +27,8 @@ def read_json():
 
   print "%i movies in total" % len(data)
   for movie in data:
-    print movie['runtime']
+    print movie['title']
+    print movie['keywords']
     print ""
 
 
