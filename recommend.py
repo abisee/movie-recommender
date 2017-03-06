@@ -2,6 +2,10 @@ from IPython.core.display import HTML
 import json
 import numpy as np
 import copy
+import string
+import locale
+
+locale.setlocale(locale.LC_ALL, 'en_US')
 
 data_file = "data/data.json"
 
@@ -23,7 +27,7 @@ demographic_keys = ['aged 18-29', 'aged 30-44', 'aged 45+', 'aged under 18', 'al
 
 age_brackets = ['aged under 18', 'aged 18-29', 'aged 30-44', 'aged 45+']
 
-demographic_features = ['fraction votes female', 'fraction votes non-US', 'age bracket with most votes']
+demographic_features = ['% votes female', '% votes non-US', 'age bracket with most votes']
 
 # In the data, "parents guide" maps to a dictionary mapping e.g. "violence & gore" to a list of sentences. Sometimes the first sentence is e.g. "2/10" plus occasionally some more text. Can assume that if "2/10" appears it is the start of the first sentence.
 parents_guide_features = ['alcohol/drugs/smoking', 'frightening/intense scenes', 'profanity', 'sex & nudity', 'violence & gore']
@@ -39,13 +43,14 @@ def import_movies():
     data = json.load(f) # a list
   for movie in data:
     title2movie[movie['title']] = movie
+  print "Imported %i movies" % len(title2movie.keys())
   return title2movie
 
 
 ##########################################################################
 # STEP 1.5: PROCESS SOME VALUES
 # Convert MPAA strings to numerical values
-# Convert runtimes from lists to floats
+# Convert runtimes from lists to ints
 # Convert dictionary features to individual features
 # Take top 3 of all lists
 ##########################################################################
@@ -65,12 +70,20 @@ def mpaa_to_num(mpaa_rating):
   else:
     raise ValueError("Unknown rating: %s" % mpaa_rating)
 
+def num_to_mpaa(n):
+  """Maps n={0,1,2,3,4} to MPAA string"""
+  MPAA_ratings = ['G', 'PG', 'PG-13', 'R', 'NC-17']
+  return MPAA_ratings[n]
 
 def age_bracket_to_num(age_bracket):
   """Returns age bracket is a number 0 to 3"""
   if age_bracket not in age_brackets:
     raise ValueError("Unknown age bracket: %s" % age_bracket)
   return age_brackets.index(age_bracket)
+
+def num_to_age_bracket(n):
+  """Maps n={0,1,2,3} to age bracket string"""
+  return age_brackets[n]
 
 
 def postprocess_movies(title2movie):
@@ -83,7 +96,7 @@ def postprocess_movies(title2movie):
     if 'runtime' in movie.keys():
       runtime_str = movie['runtime'][0]
       try:
-        runtime = float(runtime_str)
+        runtime = int(runtime_str)
       except e:
         print "Unusual runtime format: ", runtime_str
         exit()
@@ -98,8 +111,8 @@ def postprocess_movies(title2movie):
       ages_votes = sorted([(a,votes[a]) for a in age_brackets], key=lambda (a,v): v)
       age_mode = ages_votes[-1][0] # string of the age bracket with highest votes
       age_feat = age_bracket_to_num(age_mode) # convert to integer 0 to 3
-      movie[demographic_features[0]] = gender_feat
-      movie[demographic_features[1]] = nonus_feat
+      movie[demographic_features[0]] = gender_feat * 100
+      movie[demographic_features[1]] = nonus_feat * 100
       movie[demographic_features[2]] = age_feat
     if 'parents guide' in movie.keys():
       pg = movie['parents guide']
@@ -117,6 +130,7 @@ def postprocess_movies(title2movie):
             print ""
             continue
           movie[f] = rating
+  print "After postprocessing there are %i movies" % len(title2movie.keys())
 
 
 ##########################################################################
@@ -199,7 +213,7 @@ class MovieVec:
     for f in numerical_features + demographic_features + parents_guide_features:
       if f in movie.keys():
         idx = feat2indices[f][0]
-        vec[idx] = movie[f]
+        vec[idx] = float(movie[f])
 
     for f in category_features:
       if f in movie.keys():
@@ -257,6 +271,7 @@ def create_vectors(title2movie, feat2items):
   print "creating MovieVectors..."
   for key,movie in title2movie.iteritems():
     title2MVec[key] = MovieVec(movie, dim, index2feat, feat2indices, item2index)
+  print "Created %i MovieVectors" % len(title2MVec.keys())
   return title2MVec
 
 
@@ -291,8 +306,7 @@ def get_stds(d, title2MVec, num_movies, means):
 def get_normed_vecs(title2MVec):
   """Normalizes all the MovieVecs in the dictionary title2MVec"""
   # Calculate the means and stds
-  _, any_MovieVec = title2MVec.popitem() # get any movie...
-  d = any_MovieVec.dim # ...to obtain the length
+  d = title2MVec.values()[0].dim # get the dimension
   num_movies = len(title2MVec.keys()) # get the total number of movies
   means = get_means(d, title2MVec, num_movies)
   stds = get_stds(d, title2MVec, num_movies, means)
@@ -300,6 +314,7 @@ def get_normed_vecs(title2MVec):
   # Normalize the movie vectors
   for _,mvec in title2MVec.iteritems():
     mvec.normalize(means, stds)
+  print "After normalizing there are %i MovieVectors" % len(title2MVec.keys())
   return title2MVec
 
 
@@ -385,15 +400,23 @@ def feat_to_info(movie, f, dist):
   Returns a string."""
   if f == "distance":
     return "%.3f" % (dist)
+  elif f=="mpaa":
+    return str(num_to_mpaa(movie[f]))
+  elif f=="votes":
+    return locale.format("%d", movie[f], grouping=True)
+  elif f==demographic_features[2]:
+    return num_to_age_bracket(movie[f])
   elif f not in movie.keys():
-    return "N/A"
+    return "no data"
   elif type(movie[f])==list:
     return comma_list(movie[f])
   elif type(movie[f])==int:
     return str(movie[f])
   elif type(movie[f])==float:
-    if f=="rating":
+    if f=="rating" or f in demographic_features:
       return "%.1f" % (movie[f])
+    elif f in parents_guide_features:
+      return str(movie[f])
     else:
       return "%.3f" % (movie[f])
   else:
@@ -460,10 +483,76 @@ def get_recommendations(query_title, feat2weight, title2MVec_norm, title2movie, 
   headers = [feat_to_header(f) for f in feature_order]
   html_string += table_row(headers, header=True)
   html_string += table_row_print(query_title, 0, feature_order, title2movie)
-  for (key,dist) in dists_sorted:
-    html_string += table_row_print(key, dist, feature_order, title2movie)
+  for (title,dist) in dists_sorted:
+    html_string += table_row_print(title, dist, feature_order, title2movie)
   html_string += "</table>"
   return HTML(html_string)
+
+##########################################################################
+# LOSS FUNCTION
+##########################################################################
+
+# Some movies have a list of recommendations, a subset of which may be in the dataset. The loss for one example is the average rank of these recommendations, normalized by the total number of movies. The loss for the whole dataset is the average of this over all examples that have in-dataset recommendations
+
+def loss_per_ex(query_title, feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
+
+  query_mvec = title2MVec_norm[query_title]
+  query_mdict = title2movie[query_title]
+  if 'recommendations' not in query_mdict.keys(): return None, None
+  recs = query_mdict['recommendations']['database']
+  recs_titles = [r[0] for r in recs if r[0] in title2movie.keys() and r[0]!=query_title] # list of titles
+  if len(recs_titles)==0: return None, None
+
+  dists_sorted = get_dists(query_title, feat2weight, distance_function, title2MVec_norm)
+  title_list = [x[0] for x in dists_sorted]
+
+  try:
+    recs_ranks = [title_list.index(t) for t in recs_titles]
+  except Exception as e:
+    print "query title: ", query_title
+    print e
+    print "original recommendations: ", recs
+    print "filtered recommendations: ", recs_titles
+    print "all %i keys: " % len(title2movie.keys()), sorted(title2movie.keys())
+    print "all %i titles in distance order: " % len(title_list), title_list
+    exit()
+  loss = sum(recs_ranks)
+  loss = float(loss) / len(recs_ranks)
+  # loss /= len(title2movie.keys())
+
+  # print ""
+  # print query_title
+  # print recs_titles
+  # print recs_ranks
+  # print loss
+
+  return loss, zip(recs_titles, recs_ranks)
+
+
+def get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
+  print "calculating loss..."
+  losses = [] # (title, loss) pair
+  num_movies = len(title2movie.keys())
+  for idx,title in enumerate(title2movie.keys()):
+    if idx % 10 == 0: print "title %i of %i" % (idx, num_movies)
+    ex_loss, ex_recs = loss_per_ex(title, feat2weight, title2MVec_norm, title2movie, distance_function)
+    if ex_loss is not None:
+      losses.append((title, ex_loss, ex_recs))
+
+  losses = sorted(losses, key=lambda (t,l,r): l, reverse=True)
+  avg_loss = float(sum([l for (_,l,_) in losses])) / len(losses)
+
+  print "overall loss: ", avg_loss
+  print ""
+  for (t,l,r) in losses:
+    print "%s has loss %.2f. It gave these rankings for these related movies:" % (t,l)
+    for (rec_t, rec_r) in r:
+      print "%s %i" % (rec_t, rec_r)
+
+  print ""
+
+
+
 
 ##########################################################################
 # MAIN. RUNS WHEN IPYTHON NOTEBOOK STARTS
@@ -482,11 +571,12 @@ def init():
   title2MVec_norm = get_normed_vecs(title2MVec)
   return title2MVec_norm, title2movie
 
-# if __name__=="__main__":
-  # feat2weight = {}
-  # for f in numerical_features + demographic_features + parents_guide_features + category_features:
-  #   feat2weight[f] = 1.0
+if __name__=="__main__":
+  feat2weight = {}
+  for f in numerical_features + demographic_features + parents_guide_features + category_features:
+    feat2weight[f] = 1.0
 
-  # title2movie, title2MVec_norm = init() # this is globally visible
+  title2MVec_norm, title2movie = init()
+  get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist)
 
-  # print get_recommendations("Titanic", feat2weight)
+  # get_recommendations("casablanca", feat2weight, title2MVec_norm, title2movie)

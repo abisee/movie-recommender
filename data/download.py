@@ -21,16 +21,25 @@ def read_json():
   with open(json_file, "r") as f:
     data = json.load(f)
   key_counts = collections.Counter()
+  ids = []
 
   for movie in data:
     key_counts.update(movie.keys())
+    ids.append(movie['id'])
+
+  num_recs_in_dataset = 0
 
   print "%i movies in total" % len(data)
   for movie in data:
     print movie['title']
-    print movie['keywords']
+    if 'recommendations' in movie.keys():
+      print movie['recommendations']['database']
+      for m in movie['recommendations']['database']:
+        if m[1] in ids:
+          num_recs_in_dataset += 1
     print ""
 
+  print num_recs_in_dataset
 
 def remove_dups_json():
   """Remove all duplicate movies from json file"""
