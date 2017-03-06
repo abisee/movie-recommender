@@ -26,23 +26,9 @@ def read_json():
     key_counts.update(movie.keys())
 
   print "%i movies in total" % len(data)
-  key = 'parents guide'
-  print key_counts[key]
   for movie in data:
-    if key in movie.keys():
-      for k,v in movie[key].iteritems():
-        print k
-        for thing in v:
-          if "/10" in thing: print thing
-        print ""
-
-      # for s in sorted(movie[key].keys()):
-      #   print "'%s'," % s,
-      # print ""
-
-  # print "\n\n"
-  # for k in sorted(key_counts.keys()):
-  #   print k, key_counts[k]
+    print movie['runtime']
+    print ""
 
 
 def remove_dups_json():
