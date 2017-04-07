@@ -7,8 +7,8 @@ import os
 import string
 import collections
 
-titles_file = "to_download.txt"
-json_file = "data.json"
+titles_file = "to_download.txt" # list of titles to download
+json_file = "data.json" # where we'll save the data
 
 def init_json():
   """Initializes the json file. If it already exists, does nothing"""
@@ -16,44 +16,48 @@ def init_json():
     with open(json_file, 'w') as f:
       json.dump([], f)
 
-def read_json():
-  """pretty-prints all the info in the json file"""
+def read_json(detail=False, title=None):
+  """Pretty-prints all the info in the json file.
+  If detail is False, print only titles. If True, print out all info.
+  If title is None, print all records. Otherwise just print given title."""
   with open(json_file, "r") as f:
     data = json.load(f)
-  key_counts = collections.Counter()
-  ids = []
-
+  print "There are %i movies in total\n" % len(data)
   for movie in data:
-    key_counts.update(movie.keys())
-    ids.append(movie['id'])
+    if title is not None and movie['title']!=title:
+      continue
+    if not detail:
+      print movie['title']
+    else:
+      for k in sorted(movie.keys()):
+        print k, movie[k]
+        print ""
+      print "=============================="
 
-  num_recs_in_dataset = 0
-
-  print "%i movies in total" % len(data)
-  for movie in data:
-    print movie['title']
-    if 'recommendations' in movie.keys():
-      print movie['recommendations']['database']
-      for m in movie['recommendations']['database']:
-        if m[1] in ids:
-          num_recs_in_dataset += 1
-    print ""
-
-  print num_recs_in_dataset
 
 def remove_dups_json():
-  """Remove all duplicate movies from json file"""
+  """Remove all duplicate movies from existing json file."""
   with open(json_file, "r") as f:
     data = json.load(f)
-  ids = [movie['id'] for movie in data]
+  ids = [movie['id'] for movie in data] # The 'id' field of each movie is a unique identifier
   new_data = []
   for idx,movie in enumerate(data):
     if movie['id'] not in ids[:idx]:
       new_data.append(movie)
     else:
-      print "duplicate of %s found" % movie['title']
+      print "Duplicate of %s found" % movie['title']
   with open(json_file, "w") as f:
     json.dump(new_data, f)
+
+
+def fix_english_titles():
+  """Change all non-English titles to English titles in existing json file"""
+  with open(json_file, "r") as f:
+    data = json.load(f)
+  for movie in data:
+    movie = set_english_title(movie)
+  with open(json_file, "w") as f:
+    json.dump(data, f)
 
 
 # def fix_names_json():
@@ -79,7 +83,7 @@ def remove_dups_json():
 
 
 def append_json(movie_dict):
-  """Appends one movie to the json file"""
+  """Appends one movie to the json file."""
   if is_in_json_id(movie_dict['id']): return
   with open(json_file, "r") as f:
     feeds = json.load(f)
@@ -104,7 +108,7 @@ def is_in_json_title(title):
   with open(json_file, "r") as f:
     data = json.load(f)
   for movie in data:
-    if title_match(title,movie['title']):
+    if title_match(title, movie['title']):
       print "%s is already in json file" % title
       return True
   return False
@@ -121,7 +125,7 @@ def is_in_json_id(id):
 
 
 def switch_name(name):
-  """Given e.g. Potter, Harry return Harry Potter. If no comma found do nothing"""
+  """Given e.g. Potter, Harry return Harry Potter. If no comma found, do nothing"""
   parts = name.split(",")
   parts = [s.strip() for s in parts]
   if len(parts)==2:
@@ -130,6 +134,7 @@ def switch_name(name):
     return name
 
 def get_dl_list():
+  """Read the titles text file to get list of titles to download"""
   download_list = []
   with open(titles_file, "r") as f:
     for line in f:
@@ -139,7 +144,7 @@ def get_dl_list():
 
 
 def convert(thing):
-  """Recursively converts thing to a json-writeable format"""
+  """Recursively converts thing (which may be a imdb.Person.Person, imdb.Movie.Movie etc, or a list, dictionary, etc) to a json-writeable format"""
   if isinstance(thing, imdb.Person.Person):
     return switch_name(thing.data['name'])
   elif isinstance(thing, imdb.Company.Company):
@@ -162,28 +167,49 @@ def convert(thing):
   else:
     raise ValueError("did not convert thing: %s" % thing)
 
+
 def result_to_jsondict(result):
-  """Convert search result to json-writeable dictionary"""
+  """Convert imdb search result to json-writeable dictionary"""
   movie_dict = {}
   for k in sorted(result.keys()):
     movie_dict[k] = convert(result[k])
-
-  assert "title" in movie_dict.keys()
+  assert "title" in movie_dict.keys() # every movie must have a title, which will be used for lookup
   assert 'id' not in movie_dict
-  movie_dict['id'] = result.movieID
+  movie_dict['id'] = result.movieID # we add the id field which is a unique identifier
   return movie_dict
+
+def set_english_title(movie):
+  """Sets the 'title' field of the movie dictionary to the English version"""
+  if 'languages' not in movie.keys(): return movie
+  if movie['languages'][0]=="English": return movie
+  orig_title = movie['title']
+  english_title = ""
+  if 'akas' in movie.keys():
+    for t in movie['akas']:
+      if "International (English title)" in t:
+        english_title = t.split("::")[0]
+  if english_title == "":
+    print "Didn't find English title for %s" % movie['title']
+    return movie
+  print "changing %s to %s" % (orig_title, english_title)
+  print ""
+  movie['title'] = english_title
+  movie['original title'] = orig_title
+  return movie
 
 
 def download_movie(title):
-  """Given title which is a string, downloads the info from IMDB and saves to json file. If movie is already in json file, do nothing."""
+  """Given string title, downloads the info from IMDB and appends to the json file. If movie is already in json file, do nothing."""
   if is_in_json_title(title): return
   print "Searching for %s..." % title
   logger = logging.getLogger('imdb')
   logger.setLevel(level=logging.ERROR)
   search_results = ia.search_movie(title)
   r = search_results[0] # take first result
+  if is_in_json_id(r.movieID): return
   ia.update(r, 'all') # this fetches all the information
   movie_dict = result_to_jsondict(r)
+  movie_dict = set_english_title(movie_dict)
   append_json(movie_dict)
 
 
@@ -200,3 +226,4 @@ if __name__=="__main__":
   read_json()
   # remove_dups_json()
   # fix_names_json()
+  # fix_english_titles()

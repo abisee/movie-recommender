@@ -1,11 +1,14 @@
 from IPython.core.display import HTML
+import random
+import sys
 import json
 import numpy as np
 import copy
 import string
 import locale
+from numbers import Number
 
-locale.setlocale(locale.LC_ALL, 'en_US')
+locale.setlocale(locale.LC_ALL, 'en_US') # we use the locale package to format numbers with commas e.g. 1,234,567
 
 data_file = "data/data.json"
 
@@ -37,7 +40,7 @@ parents_guide_features = ['alcohol/drugs/smoking', 'frightening/intense scenes',
 ##########################################################################
 
 def import_movies():
-  """Returns movies, a dict from title strings to movie. Each movie is a dict from feature strings to information (string/integer/list)."""
+  """Returns a dict from title strings to movie. Each movie is a dict from feature strings to information (string/integer/list)."""
   title2movie = {}
   with open(data_file) as f:
     data = json.load(f) # a list
@@ -68,7 +71,8 @@ def mpaa_to_num(mpaa_rating):
   elif 'Rated NC-17' in mpaa_rating:
     return 4
   else:
-    raise ValueError("Unknown rating: %s" % mpaa_rating)
+    # print "Unknown rating: %s" % mpaa_rating
+    return None
 
 def num_to_mpaa(n):
   """Maps n={0,1,2,3,4} to MPAA string"""
@@ -76,7 +80,7 @@ def num_to_mpaa(n):
   return MPAA_ratings[n]
 
 def age_bracket_to_num(age_bracket):
-  """Returns age bracket is a number 0 to 3"""
+  """Returns age bracket as a number 0 to 3"""
   if age_bracket not in age_brackets:
     raise ValueError("Unknown age bracket: %s" % age_bracket)
   return age_brackets.index(age_bracket)
@@ -85,25 +89,35 @@ def num_to_age_bracket(n):
   """Maps n={0,1,2,3} to age bracket string"""
   return age_brackets[n]
 
-
 def postprocess_movies(title2movie):
+  """Takes the title2movie dictionary returned by import_movies and does some postprocessing."""
   for _, movie in title2movie.iteritems(): # movie is a dict
     for f,v in movie.iteritems():
-      if type(v)==list:
+      if type(v)==list: # take top 3 of every list
         movie[f] = v[:3]
-    if 'mpaa' in movie.keys():
-      movie['mpaa'] = mpaa_to_num(movie['mpaa'])
-    if 'runtime' in movie.keys():
+    if 'mpaa' in movie.keys(): # convert mpaa string to a number
+      mpaa_num = mpaa_to_num(movie['mpaa'])
+      if mpaa_num is not None:
+        movie['mpaa'] = mpaa_num
+      else:
+        del movie['mpaa'] # don't add
+    if 'runtime' in movie.keys(): # extract runtime and save as int
       runtime_str = movie['runtime'][0]
       try:
         runtime = int(runtime_str)
-      except e:
-        print "Unusual runtime format: ", runtime_str
-        exit()
+      except:
+        # raise ValueError("Unusual runtime format: %s" % runtime_str)
+        # print "Unusual runtime format for movie %s: %s" % (movie['title'], runtime_str)
+        # runtime_str = ''.join(c or c in runtime_str if c.isdigit())
+        del movie['runtime']
+        continue # don't add
       movie['runtime'] = runtime
-    if 'demographic' in movie.keys():
+    if 'demographic' in movie.keys(): # extract gender_feat, nonus_feat and age_feat from demographic info
       dems = movie['demographic']
-      assert demographic_keys == sorted(dems.keys())
+      if demographic_keys != sorted(dems.keys()):
+        # print "Unexpected demographics keys for movie %s: " % movie['title'], sorted(dems.keys())
+        del movie['demographic']
+        continue # don't add
       votes = {k: float(v[0]) for k,v in dems.iteritems()}
       ratings = {k: v[1] for k,v in dems.iteritems()}
       gender_feat = votes['females'] / (votes['females'] + votes['males']) # fraction of votes female
@@ -114,7 +128,7 @@ def postprocess_movies(title2movie):
       movie[demographic_features[0]] = gender_feat * 100
       movie[demographic_features[1]] = nonus_feat * 100
       movie[demographic_features[2]] = age_feat
-    if 'parents guide' in movie.keys():
+    if 'parents guide' in movie.keys(): # extract parents guide rating and save as float
       pg = movie['parents guide']
       for f in parents_guide_features:
         if f not in pg.keys(): continue
@@ -178,7 +192,9 @@ def collect_feat_items(title2movie):
 ##########################################################################
 
 def set_vec_layout(feat2items):
-  """Determines the length and layout of the movie vectors."""
+  """Determines the length and layout of the movie vectors.
+  feat2items: dictionary mapping categorical features e.g. 'director' to list of all possible items e.g. list of all directors
+  Returns the overall dimension, and dictionaries providing mappings between vector indices and features or items."""
   feat2indices = {} # maps feature name to list of indices (in the vector)
   item2index = {} # maps item name to single index
   index2feat = {} # maps index to (feature, item) where item may be None
@@ -204,16 +220,22 @@ class MovieVec:
   def __init__(self, movie, dim, index2feat, feat2indices, item2index):
     """Inputs:
         movie: dictionary
-        feat2items: dictionary mapping categorical features to list of all possible items e.g. list of all directors
         dim: dimension of the movie vector
-        index2feat: dictionary from index (feature, item) where item may be None
-      Note that if features are absent, they are 0 by default"""
+        index2feat: dictionary mapping indices to (feature,item) pairs where item may be None. e.g. ('runtime', None) for non-categorical features or ('cast','Brad Pitt') for categorical features.
+        feat2indices: dictionary mapping feature name to list of indices
+        item2index: dictionary mapping item from a categorical feature (e.g. 'Brad Pitt') to a single index
+      Note that if a certain feature is absent, it is considered 0 by default"""
     vec = np.zeros([dim])
 
     for f in numerical_features + demographic_features + parents_guide_features:
       if f in movie.keys():
         idx = feat2indices[f][0]
-        vec[idx] = float(movie[f])
+        try:
+          vec[idx] = float(movie[f])
+        except:
+          print f
+          print movie[f]
+          exit()
 
     for f in category_features:
       if f in movie.keys():
@@ -223,26 +245,24 @@ class MovieVec:
         else:
           vec[item2index[movie[f]]]=1.0
 
-
     self.vec = np.array(vec)
     self.dim = dim
     self.index2feat = index2feat
     self.feat2indices = feat2indices
 
   def normalize(self, means, stds):
-    """Subtracts the mean then divides by the std elementwise.
-    TODO: change this so that it doesn't normalize some dimensions"""
+    """Subtracts means then divides by stds elementwise (both are vectors same length as self.vec).
+    Doesn't normalize features listed in dont_normalize."""
     assert means.shape == self.vec.shape
     assert stds.shape == self.vec.shape
-
     for idx in range(self.dim):
       (f, item) = self.index2feat[idx]
       if f not in dont_normalize:
         if stds[idx] == 0.0:
           print "stds for index %i is zero" % idx
           print f, item
+          exit()
         self.vec[idx] = (self.vec[idx] - means[idx]) / stds[idx]
-
     assert not np.any(np.isinf(self.vec))
     assert not np.any(np.isnan(self.vec))
 
@@ -329,7 +349,7 @@ def manh_dist(mvec1, mvec2):
   return np.linalg.norm(mvec1.vec-mvec2.vec, 1)
 
 def get_dists(query_title, title2MVec_reweighted, distance_function):
-  """Calculates the distance from all movies in the database to query_title.
+  """Calculates the distance from all movies in title2MVec_reweighted to query_title.
   Returns a list of (dist,key) tuples that doesn't include the original movie."""
 
   query_mvec = title2MVec_reweighted[query_title]
@@ -353,9 +373,9 @@ def comma_list(lst):
     to_return += "%s, " % (x)
   return to_return[0:-2]
 
-def heading(s,n):
+def heading(s,n,color="black"):
   """Puts heading n tags around string s"""
-  return "<h%i>%s</h%i>" % (n,s,n)
+  return '<h%i style="color:%s">%s</h%i>' % (n,color,s,n)
 
 def table_data(s):
   """Puts <td> around input"""
@@ -400,14 +420,14 @@ def feat_to_info(movie, f, dist):
   Returns a string."""
   if f == "distance":
     return "%.3f" % (dist)
+  elif f not in movie.keys():
+    return "no data"
   elif f=="mpaa":
     return str(num_to_mpaa(movie[f]))
   elif f=="votes":
     return locale.format("%d", movie[f], grouping=True)
   elif f==demographic_features[2]:
     return num_to_age_bracket(movie[f])
-  elif f not in movie.keys():
-    return "no data"
   elif type(movie[f])==list:
     return comma_list(movie[f])
   elif type(movie[f])==int:
@@ -441,7 +461,9 @@ def feat_to_header(f):
 
 def table_row_print(query_title, dist, feature_order, title2movie):
   """Returns a HTML string giving information about the movie
-  as a row of a table. Adds dist (which is a float) to the row."""
+  as a row of a table.
+  feature_order is a list of feature names, in the order they should appear in the table.
+  Adds dist (which is a float) to the row."""
   movie = title2movie[query_title]
   data = [feat_to_info(movie, f, dist) for f in feature_order]
   return table_row(data)
@@ -453,8 +475,8 @@ def get_feature_order(feat2weight):
 
 
 def title_match(title1, title2):
-  """Determine if two titles match; case and punctuation insensitive. Keeps spaces."""
-  punc_set = set(string.punctuation)
+  """Determine if two titles match. Case, space and punctuation insensitive."""
+  punc_set = set(string.punctuation + " ") # set of all punctuation chars and space
   title1 = title1.lower()
   title1 = ''.join(ch for ch in title1 if ch not in punc_set)
   title2 = title2.lower()
@@ -466,10 +488,22 @@ def search_titles(query_title, title2MVec):
   if query_title in title2MVec: return query_title
   for title in title2MVec.keys():
     if title_match(query_title, title): return title
-  print "That film isn\'t in the database. Did you type it correctly?"
+  print "That movie isn\'t in the database. Did you type it correctly?"
+  print "Here is a random selection of movies to try:\n"
+  num_movies = len(title2MVec.keys())
+  random_selection = [random.randint(0,num_movies-1) for _ in range(10)]
+  random_selection = [title2MVec.keys()[i] for i in random_selection]
+  for t in random_selection:
+    print t
   return None
 
 def reweight(title2MVec_norm, feat2weight):
+  # Check none of the feature weights are negative
+  for feature,weight in feat2weight.iteritems():
+    if not isinstance(weight, Number):
+      print "Error! The weight '%s' for feature '%s' is not a number" % (weight, feature)
+    if weight<0:
+      print "Error! The weight %s for feature '%s' is less than zero" % (weight, feature)
   # Copy the movie vecs then reweight
   title2MVec_reweighted = copy.deepcopy(title2MVec_norm)
   for mvec in title2MVec_reweighted.values():
@@ -526,9 +560,9 @@ def get_rec_ranks(query_title, title2MVec_reweighted, title2movie, distance_func
   return zip(recs_titles, recs_ranks)
 
 
-def get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
+def get_score(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist):
   """Prints information about loss"""
-  print "calculating loss..."
+  print "calculating score..."
 
   # Reweight
   title2MVec_reweighted = reweight(title2MVec_norm, feat2weight)
@@ -546,15 +580,18 @@ def get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_d
 
   # Calc loss
   avg_loss = float(sum([rank for (m,rec,rank) in movie_rec_rank_tuples])) / len(movie_rec_rank_tuples)
+  avg_loss = avg_loss*100/(num_movies-2) # normalize so that best possible loss is 0 and worst possible loss is 100
 
   # Print info in a table
-  html_string = heading("Your score: %.2f" % (avg_loss), 2)
+  html_string = heading("Your score: %.2f%% (best = 0%%, worst = 100%%)" % (avg_loss), 2, color="red")
+  html_string += "<p>Below are all the IMDb recommendation pairs. They are sorted so that those you perform poorly on are at the top.</p>"
   html_string += "<table>"
   html_string += loss_colgroup()
-  headers = ['movie', 'IMDB recommendation', 'your rank (from 0 to %i)' % (num_movies-1)]
+  headers = ['Movie', 'IMDB recommendation', 'Your recommendation rank (0 is best)', 'Your score (0% is best)']
   html_string += table_row(headers, header=True)
   for (m, rec, rank) in movie_rec_rank_tuples:
-    html_string += table_row([m, rec, rank])
+    # third_col = "%.2f (recommendation %i of %i)" % (rank*100.0/(num_movies-2), rank, num_movies-2)
+    html_string += table_row([m, rec, "%ith of %i" % (rank, num_movies-2), "%.2f%%" % (rank*100.0/(num_movies-2))])
   html_string += "</table>"
   return HTML(html_string)
 
@@ -574,6 +611,7 @@ def init():
   title2MVec = create_vectors(title2movie, feat2items)
   print "Normalizing..."
   title2MVec_norm = get_normed_vecs(title2MVec)
+  print "Done."
   return title2MVec_norm, title2movie
 
 if __name__=="__main__":
@@ -582,6 +620,6 @@ if __name__=="__main__":
     feat2weight[f] = 1.0
 
   title2MVec_norm, title2movie = init()
-  get_loss(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist)
+  get_score(feat2weight, title2MVec_norm, title2movie, distance_function=eucl_dist)
 
   # get_recommendations("casablanca", feat2weight, title2MVec_norm, title2movie)
