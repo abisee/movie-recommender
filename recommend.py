@@ -5,10 +5,10 @@ import json
 import numpy as np
 import copy
 import string
-import locale
+# import locale
 from numbers import Number
 
-locale.setlocale(locale.LC_ALL, 'en_US') # we use the locale package to format numbers with commas e.g. 1,234,567
+# locale.setlocale(locale.LC_ALL, 'en_US') # we use the locale package to format numbers with commas e.g. 1,234,567
 
 data_file = "data/data.json"
 
@@ -425,7 +425,8 @@ def feat_to_info(movie, f, dist):
   elif f=="mpaa":
     return str(num_to_mpaa(movie[f]))
   elif f=="votes":
-    return locale.format("%d", movie[f], grouping=True)
+    return str(movie[f])
+    # return locale.format("%d", movie[f], grouping=True)
   elif f==demographic_features[2]:
     return num_to_age_bracket(movie[f])
   elif type(movie[f])==list:
