@@ -16,6 +16,8 @@ A tab should open in your browser.
 Select the `movie-recommender.ipynb` notebook and follow instructions.
 
 # How to run with Binder
-Alternatively, run in-browser with Binder by following the link:
+Alternatively, run in-browser with Binder by following the link (it may take some time to load):
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/abisee/movie-recommender)
+
+Once it loads, select the `movie-recommender.ipynb` notebook and follow instructions.
